@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="http://fonts.googleapis.com/css?family=Ribeye+Marrow" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.ba-bbq.min.js"></script>
+<script src="js/kifu.js"></script>
+<script>
+$(function() {
+    var sgf_url = $.deparam.querystring().sgf;
+    if (sgf_url) {
+        $("#kifu").kifu(sgf_url);
+        $("#source-link").attr("href", sgf_url);
+    }
+});
+</script>
+<style type="text/css">
+#download-div {
+    padding-top: 50px;
+}
+.content {
+    float: left;
+}
+</style>
+<style type="text/css" media="print">
+.dont-print {
+    display: none;
+}
+</style>
+</head>
+<body>
+<canvas id="kifu" class="content" width="700" height="700"></canvas>
+<div id="download-div" class="content dont-print">
+    <a id="source-link">Download source</a>
+</div>
+</body>
+</html>
