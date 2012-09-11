@@ -1,0 +1,71 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]HA[2]KM[0.00]
+PW[Alan]PB[Joseph]AB[gc][cg]C[Overall nice game!
+
+Alan, I'm not sure how many games you've played against handicaps, but one of the key things is to be more aggressive than normal since you start out behind.  You have to keep an eye on the entire board constantly.]
+;W[gg]
+(;B[ff]C[Excellent pressure.  Another possibility is in the variation.]
+;W[fg]
+;B[eg]C[As W, I would cut.  My goal would be to make the game complicated so I can try to force a mistake.]
+(;W[eh]C[A bit low for my taste.  Even if W settles in the corner, he will be pretty far behind overall.]
+;B[dh]TR[ef]C[Keep in mind the marked atari.]
+(;W[fh]
+(;B[de]
+;W[fe]
+;B[gf]C[Ladder possible here.]
+(;W[ge]
+;B[ef]
+;W[hf]
+;B[he]
+;W[hd]C[Opportunity for B.]
+(;B[ie]
+;W[id]
+;B[gd]
+;W[fd]
+;B[fc]
+;W[ec]
+;B[ed]
+;W[if]C[It is common to throw in to remove an eye.  See variation.]
+(;B[ee]
+;W[he]
+;B[dc]C[Good.]
+;W[eb]
+;B[db]
+;W[fb]
+;B[gb]
+;W[ga]
+(;B[fa]
+;W[ea]
+(;B[ha]C[This has the opportunity to be a ko.  It could be bad for B.  Instead, just atari the big group.]
+(;W[da]
+;B[ca])
+(;W[hb]
+;B[fa]))
+(;B[da]))
+(;B[ea]C[This is fine too.]))
+(;B[he]
+;W[ie]CR[hh]TR[he]C[No longer an eye.  B can target the corner later.  If not, W will at least have to fix.]))
+(;B[hg]
+;W[ie]
+;B[hh]
+;W[gh]
+;B[gi]TR[fg][gg][eh][fh][gh]C[2 liberties for the W group, 3 for the B, B wins the corner.]))
+(;W[ef]
+;B[dg]
+;W[hf]
+;B[ge]
+;W[gd]
+;B[he]
+;W[hd]))
+(;B[gf]TR[ha][ia][hb][ib][hc][ic][hd][id][he][ie][ah][bh][ch][ai][bi][ci]SQ[gh][hh][ih][fi][gi][hi][ii]C[Perhaps better to limit W's expansion and strengthen your stone.  B is in the lead territorially and W needs to play something in B's influence to have a chance.]
+;W[cc]
+;B[ec]
+;W[ce]
+;B[ef]))
+(;W[ef]
+;B[dg]
+;W[fe]C[The center is bigger than settling the corner here.]))
+(;W[ef]C[This can go a lot of different ways.]))
+(;B[eg]C[Playing something like this also applies pressure.  It can make the game pretty simple for B since you force W's move each step of the way.  Here, you are putting pressure on the corner white stone.  The most logical thing to do for W is to extend for a base.]
+;W[ge]
+;B[ec]C[At this point the game is still pretty simple and B keeps his lead.]))
