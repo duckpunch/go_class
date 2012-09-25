@@ -1,0 +1,87 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Alex]PB[Joseph]C[Overall, not a bad game.  Joseph set himself up to win the game early but Alex found a way to live in his territory.
+
+I think the takeaway for Alex in this game is to remember some of the fundamentals that we've talked about - particularly, connecting and disconnecting.  There were a few places where you really left yourself vulnerable and Joseph was able to take a big early lead.
+
+For Joseph, you played a good game.  One area of focus is trying to work on killing groups.  You had a handful of opportunities to kill W's invasion.  One thing you could try thinking about before you play each move is where the groups are for both players and what their health is.  Overall though, I liked your steady play in this game.  Your groups stayed very well connected.]
+;B[ee]
+;W[cc]
+;B[cd]
+;W[dd]
+;B[de]
+;W[ce]C[This can be an interesting way to play.  It's pretty aggressive.  You have to keep a few fundamentals in mind - try to connect your groups - if this is not possible, try to at least keep your opponent disconnected.  You want to keep a count on the number of groups each player has.]
+;B[bd]
+;W[bc]
+;B[be]
+(;W[bf]
+;B[cf]LB[cc:1][bf:2]C[At this point, I would say B has pulled ahead.  He only has one group on the board where W maybe has 2 (or at least 1 group and then some dead stones.  You can think of the dead stones as wasted moves.]
+;W[ec]
+;B[ed]
+;W[dc]
+;B[fc]
+;W[fd]
+(;B[fe]
+;W[gd]
+;B[ge]
+;W[gc]
+;B[hd]
+;W[fb]
+;B[hc]
+;W[hb]
+(;B[af]
+;W[gg]C[This was a nice invasion.  It was good recognition to know that if you couldn't live in B's territory, you would lose the game.]
+(;B[bg]C[Instead of this move, you should deal with the invasion move.  W is still very killable here.]
+;W[dg]
+;B[dh]
+;W[eh]
+;B[eg]
+;W[ef]
+;B[fg]
+;W[ch]C[W is still very killable.]
+(;B[df]
+;W[gf]
+;B[cg]
+;W[ff]
+;B[gh]
+;W[fh]
+;B[hf]
+;W[dg]
+(;B[di]
+;W[ci]
+(;B[gi]
+;W[hi]
+;B[hg]
+;W[hh]
+(;B[ih]
+;W[fi]C[Last chance to kill the whole white group.]
+(;B[bh]
+;W[ei])
+(;B[eg]TR[gh][gi]C[Only 1 eye.]))
+(;B[eg]))
+(;B[eg]C[Can still capture back.]))
+(;B[eg]C[This is not a ko situation, you can just capture back here.]))
+(;B[fh]
+;W[di]
+;B[ff]LB[df:A][cg:B][bh:C]C[Marked are possible W moves to try to live.]
+(;W[df]
+;B[bh]TR[dh]C[Only 1 eye possible here.])
+(;W[cg]
+;B[bh]TR[dh]C[Same thing here - only 1 eye.])
+(;W[bh]
+;B[ah]
+;W[df]
+;B[cg]
+;W[dh]TR[ci]C[Only 1 possible eye here.])))
+(;B[hf]C[Protects your own weak point and threatens to take away W's base.]
+;W[hg]
+;B[fh]TR[gh][ih][hi]C[I would say that W is dead like this.  The idea is that W cannot disconnect this move so he must somehow form two eyes in the corner.  He needs each of the marked moves to make that happen.  In other words, B has to pass 3 times in the corner in order for W to live - not happening.]
+;W[fg]
+;B[eh]
+;W[eg]
+;B[dh]
+;W[dg]
+;B[cg]TR[fh]C[Cannot disconnect the marked stone.]))
+(;B[bg]TR[af]C[A faster way to kill.  You won't have to spend another move to kill it later since the stone will probably not cause any harm.]))
+(;B[gd]C[Ladder possibility here.]))
+(;W[cf]LB[cd:1][de:2]C[By playing like this, you can keep B separated.  This keeps the game interesting.]))
