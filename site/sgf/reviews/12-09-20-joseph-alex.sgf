@@ -1,0 +1,37 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Joseph]PB[Alex]C[Many small tactical errors in this one.  It's pretty clear that this was something of a warmup game :)
+
+The main takeaway for this game is to be aware of where your cut points are.  A good goal at this point is to be conscious of when you are creating cut points and when you are playing solid.  Those are basically two "modes" at any given point.  If you feel you are behind, you might need to take a chance and play more aggressively.  This typically results in creating more cutting points.  When you are ahead, you don't want to give your opponent any chances so you might play more solid.
+
+The second game you two played was much more interesting.]
+;B[gc]
+;W[gd]
+;B[ec]
+;W[fc]
+;B[fd]
+(;W[hc]
+;B[fb]C[B takes the lead here.  The reason I say this is because B's stones are in a nice shape (no inefficient moves) and W has lost one stone and his other two are not connected.]
+(;W[fe]TR[hd][ge]C[This opens W up for cuts.]
+;B[ge]
+;W[he]
+;B[hd]
+;W[hf]
+;B[gf]
+;W[gg]
+;B[ff]
+;W[ee]
+;B[hg]
+;W[hh]
+;B[ig]
+;W[if]
+;B[ie]
+;W[fg]
+;B[eg]
+;W[ef]
+;B[gh]
+;W[dg])
+(;W[ge]C[Better to stay strong here.]))
+(;W[fb]C[Don't give up on this stone.  At this point, W has 2 groups and B has 3.  W is not in terrible shape.
+
+That said though, this variation can get quite complicated :)  It's unclear at this point who is ahead.]))
