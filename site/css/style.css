@@ -25,6 +25,7 @@ a:hover {
     font-size: 32pt;
     font-family: 'Ribeye Marrow', cursive;
     color: #363636;
+    float: left;
 }
 #class-info {
     display: inline-block;
