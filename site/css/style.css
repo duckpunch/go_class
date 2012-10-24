@@ -43,6 +43,9 @@ a:hover {
 #content {
     width: 550px;
 }
+#news {
+    float: left;
+}
 #sidebar {
     float: right;
     width: 400px;
