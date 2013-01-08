@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="http://fonts.googleapis.com/css?family=Ribeye+Marrow" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="js/jquery.jqote2.min.js"></script>
+<script type="text/javascript" src="js/kifu.min.js"></script>
+<script>
+    var kifu;
+    function resetKifuStack() {
+        // called on previous move - because im tired - fix this for next time
+        kifu._variation_stack[kifu._variation_index + 1] = 0;
+    }
+    $(function() {
+        var sgf_url = $.deparam.querystring().sgf,
+        handleChange = function() {
+            var kifu = $("#kifu").kifu(), comment, var_links, i, jump_to_tokens;
+            if (kifu.current_move) {
+                comment = kifu.current_move.comment;
+                comment = comment.replace(/\n/g, "<br/>");
+
+                var_links = comment.match(/\|[\sa-zA-Z,0-9;]*\|/g);
+                if (var_links) {
+                    for (i = 0; i < var_links.length; i++) {
+                        jump_to_tokens = var_links[i].replace(/\|/g, "").split(";");
+                        comment = comment.replace(var_links[i],
+                            $("#jump-to-template").jqote({
+                                label: jump_to_tokens[0],
+                                variation_stack: "[" + jump_to_tokens[1] + "]",
+                                move_num: jump_to_tokens[2]
+                            })
+                        );
+                    }
+                }
+                $("#comments").html(comment);
+            } else {
+                $("#comments").html("");
+            }
+            if (kifu.current_move && kifu.current_move.next_move) {
+                $("#next-move").show();
+            } else {
+                $("#next-move").hide();
+            }
+            if (kifu.current_move && kifu.current_move.previous_move) {
+                $("#prev-move").show();
+            } else {
+                $("#prev-move").hide();
+            }
+        };
+
+        if (sgf_url) {
+            $("#kifu").kifu(sgf_url).done(function() {
+                kifu = $("#kifu").kifu();
+                kifu.board.addEventListener("change", handleChange);
+                handleChange();
+            });
+        }
+    });
+</script>
+<style type="text/css">
+#kifu, #right-side {
+    float: left;
+}
+#right-side {
+    padding-top: 50px;
+}
+#comments {
+    width: 400px;
+}
+#prev-move, #next-move, .link {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.nav-button {
+    width: 100px;
+    display: inline-block;
+}
+#container {
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+    <canvas id="kifu" width="500" height="500"></canvas>
+    <div id="right-side">
+        <div>
+            <span class="nav-button"><a id="prev-move" onclick="kifu.previousMove();resetKifuStack();">Previous</a></span>
+            <span class="nav-button"><a id="next-move" onclick="kifu.nextMove()">Next</a></span>
+        </div>
+        <div id="comments"></div>
+    </div>
+</div>
+<script id="jump-to-template" type="text/x-jqote-template">
+    <![CDATA[
+        <a class="link" onclick="kifu.setVariationStack(<%= this.variation_stack %>);kifu.jumpToMove(<%= this.move_num %>)"><%= this.label %></a>
+    ]]>
+</script>
+</body>
+</html>
