@@ -108,8 +108,8 @@ I'm sure the biggest thought in your mind at the moment must be "this doesn't lo
 Can you see what will happen here if black tries to capture the marked white stones?
 
 You can try visualizing the stones on the board and follow the ladder up to the floating white stone.]
-;AW[jj][ik][jk]AB[ji][ij][kk][jl]C[Can you see now what will happen?]
-;AW[ki][kj]AB[lj]LB[kh:1][lh:2][mi:3]TR[li]C[All of a sudden, the extra white stone provides the whole white group more liberties!
+;AW[jj][kj][ik][jk]AB[ji][ij][kk][jl]C[Can you see now what will happen?]
+;AW[ki]AB[lj]LB[kh:1][lh:2][mi:3]TR[li]C[All of a sudden, the extra white stone provides the whole white group more liberties!
 
 Now the white group has 3 liberties and can escape.
 
