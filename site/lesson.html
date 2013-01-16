@@ -8,10 +8,9 @@
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
 <script type="text/javascript" src="js/jquery.jqote2.min.js"></script>
-<script type="text/javascript" src="js/kifu.min.js"></script>
+<script type="text/javascript" src="js/kifu.pretty.js"></script>
 <script>
     var kifu;
-    // yet another bit of hacky-lazy..gotta fix this soon...
     function next() {
         kifu.nextMove();
     }
@@ -69,11 +68,6 @@
         if (sgf_url) {
             $("#kifu").kifu(sgf_url).done(function() {
                 kifu = $("#kifu").kifu();
-
-                while (kifu.current_move.next_move) {
-                    kifu._nextMove(true);
-                }
-                kifu.current_move = kifu.root_move;
 
                 kifu.board.addEventListener("change", handle_change);
                 handle_change();

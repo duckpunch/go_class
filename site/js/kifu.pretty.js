@@ -351,6 +351,8 @@ Record.prototype._applyStatic = function() {
         board_coords = sgfCoordToIndecies(coded_coord);
         this.board.addStone(board_coords[0], board_coords[1], "b", true);
     }
+
+    this.current_move.raw_static = JSON.stringify(this._static_moves);
 }
 
 Record.prototype.setVariationStack = function(new_stack) {
@@ -364,6 +366,7 @@ Record.prototype.nextMove = function() {
 Record.prototype._nextMove = function(suppress_change_event) {
     var variation_to_take, board_coords;
     if (this.current_move.next_move) {
+        // serialize on the way out if need be
         if (!this.current_move.raw_board) {
             this.current_move.raw_board = this.board.serialize();
         }
@@ -372,6 +375,7 @@ Record.prototype._nextMove = function(suppress_change_event) {
             this.current_move.raw_static = JSON.stringify(this._static_moves);
         }
 
+        // set next move
         if (Object.prototype.toString.call(this.current_move.next_move) === "[object Array]") {
             this._variation_index++;
             if (!(this._variation_index in this._variation_stack)) {
@@ -383,8 +387,10 @@ Record.prototype._nextMove = function(suppress_change_event) {
             this._setCurrentMove(this.current_move.next_move);
         }
 
+        // if formerly visited, set board and globals
         if (this.current_move.raw_board) {
             this.board.deserialize(this.current_move.raw_board);
+            this._static_moves = JSON.parse(this.current_move.raw_static);
         } else {
             board_coords = sgfCoordToIndecies(this.current_move.position);
             if (board_coords && this.current_move.color) {
