@@ -11,13 +11,23 @@
 <script type="text/javascript" src="js/kifu.min.js"></script>
 <script>
     var kifu;
+    // yet another bit of hacky-lazy..gotta fix this soon...
+    function next() {
+        kifu.nextMove();
+    }
+
+    function prev() {
+        kifu.previousMove();
+        resetKifuStack();
+    }
+
     function resetKifuStack() {
         // called on previous move - because im tired - fix this for next time
         kifu._variation_stack[kifu._variation_index + 1] = 0;
     }
     $(function() {
         var sgf_url = $.deparam.querystring().sgf,
-        handleChange = function() {
+        parse_comments = function() {
             var kifu = $("#kifu").kifu(), comment, var_links, i, jump_to_tokens;
             if (kifu.current_move) {
                 comment = kifu.current_move.comment;
@@ -40,6 +50,7 @@
             } else {
                 $("#comments").html("");
             }
+        }, show_appropriate_links = function() {
             if (kifu.current_move && kifu.current_move.next_move) {
                 $("#next-move").show();
             } else {
@@ -50,13 +61,22 @@
             } else {
                 $("#prev-move").hide();
             }
+        }, handle_change = function() {
+            parse_comments();
+            show_appropriate_links()
         };
 
         if (sgf_url) {
             $("#kifu").kifu(sgf_url).done(function() {
                 kifu = $("#kifu").kifu();
-                kifu.board.addEventListener("change", handleChange);
-                handleChange();
+
+                while (kifu.current_move.next_move) {
+                    kifu._nextMove(true);
+                }
+                kifu.current_move = kifu.root_move;
+
+                kifu.board.addEventListener("change", handle_change);
+                handle_change();
             });
         }
     });
@@ -92,8 +112,8 @@
     <canvas id="kifu" width="500" height="500"></canvas>
     <div id="right-side">
         <div>
-            <span class="nav-button"><a id="prev-move" onclick="kifu.previousMove();resetKifuStack();">Previous</a></span>
-            <span class="nav-button"><a id="next-move" onclick="kifu.nextMove()">Next</a></span>
+            <span class="nav-button"><a id="prev-move" onclick="prev()">Previous</a></span>
+            <span class="nav-button"><a id="next-move" onclick="next()">Next</a></span>
         </div>
         <div id="comments"></div>
     </div>
