@@ -29,10 +29,13 @@ If we do this, the score now becomes 28-28 and we've thrown away the victory.  T
 In this case, we have thrown away a stone.  White did not need to answer because there was no threat of making 2 eyes.  Should the game end here, the score would be 29 points of territory for black, 28 points of territory for white and 1 capture.  Again, this would be jigo.]
 ;AE[hb]AB[hh]TR[hh]C[What if black plays here?
 
-The idea is, if black manages to make a live group (that is, a group with two eyes), white's territory will be destroyed.
+The idea is, if black manages to make a live group (that is, a group with two eyes), white's territory will be destroyed.]
+;AB[hg][ig][gh][gi][ii]TR[ih][hi]C[For example, if white ignores black's invasion, he might make a shape like this.
 
-White needs to make sure this doesn't happen.]
-;AW[hf][hg][fi]AB[fh][gh]LB[hf:2][hg:4][fh:5][gh:3][hh:1][fi:6]C[Here, white successfully prevents black from forming two eyes.  What is the score now?
+Since black is unconditionally alive here, the bottom right side is no longer white's territory.  In fact, black gains 2 points of territory here in the process of living.
+
+This outcome is something that white cannot allow to happen.]
+;AE[ig][gi][ii]AW[hf][hg][fi]AB[fh]LB[hf:2][hg:4][fh:5][gh:3][hh:1][fi:6]C[Here, white successfully prevents black from forming two eyes.  What is the score now?
 
 Well, black's territory count remains at 29.  The top right remains at 6.  The 3 black stones are removed from the bottom right as captured stones leaving white with 19 points of territory.  White's point total would be 6 points (from the top) + 19 points (from the bottom) + 3 points (from captures) = 28 points.
 
@@ -103,16 +106,16 @@ Problem 1
 
 Black to create a false eye.
 
-|Show answer;1;25|]
+|Show answer;1;26|]
 (;AE[eb][cc][fc][gd][ce][de][ee][ge][he][cf][df][ff][gf][hf][eg][fg][gg]AW[ca][ea][ga][cb][db][fb][gb][dc]AB[ba][ha][bb][hb][bc][ec][hc][dd][ed][fd]C[Problem 2
 
-|Show answer;0,1;26|]
+|Show answer;0,1;27|]
 (;AE[ba][ca][ea][ga][ha][bb][cb][db][fb][gb][hb][bc][dc][ec][gc][hc][cd][dd][ed][fd]AW[df][ef][ff][cg][eg][gg][ch][dh][fh][gh][gi]AB[ce][de][ee][fe][bf][gf][hf][bg][hg][bh][hh][ci][di][ei][hi]C[Problem 3
 
-|Show answer;0,0,1;27|]
+|Show answer;0,0,1;28|]
 (;AE[ee][df][gf][hf][gg][hg][bh][fh][gh][hh][ci][di][ei][gi][hi]AW[ec][fc][fd][ce][de][fe][cf][dg]AB[db][eb][fb][cc][gc][cd][gd][be][ge][ff][eg][fg][ch][dh]C[Problem 4
 
-|Show answer;0,0,0,1;28|]
+|Show answer;0,0,0,1;29|]
 (;AE[db][eb][fb][cc][ec][fc][gc][cd][fd][gd][be][ce][ge][bf][cf][ff][bg][cg][dg][eg][fg][ch][dh]AB[ee]C[For the next section, we'll look at the last rule we need to know before playing a real game of go.
 
 To do that, we'll start with one of the first positions we looked at in lesson 1.  Here, white can capture black in one move.]
@@ -130,49 +133,28 @@ This is to break the potential for an infinite cycle.]
 ;AE[ec]AB[ed]C[Not a ko situation.]
 ;AE[eb][dc][fc][dd][ed][fd][de][fe][ef]AW[fh][ei][gi]AB[eh][di]TR[ei][fi]C[Also, notice that ko can happen on the edges of the boards.]
 ;AE[eh][fh][di][ei]AW[ig][hh][ii]AB[gi][hi]TR[ih][ii]C[The corner is also a place that has the potential for ko.]
-;AE[ig][hh][gi][hi][ii]AW[fa][gb][fc][fd]AB[db][fb][cc][ec]C[In this situation, black can choose to start a ko against white.
-
-Can you see where he would need to play in order to do so? ]
-;AB[ea]C[This is it!
-
-Now white can capture the black stone and the ko has begun.]
-;AE[fb]AW[eb]C[Earlier we mentioned that black cannot immediately recapture ko.
-
-In some situations, winning ko can be very important.]
-;AE[ea]AW[da]C[For example, if black plays elsewhere and white wins the ko battle, black's upper left position is ruined.]
-;AE[da][fa][eb]AB[ea][ga][fb]C[However, if black wins the ko battle, the positions are reversed.]
-;AE[ga][fb]AW[fa][eb][ee][fe][gf][gg][ig][hh][hi][ii]AB[ed][de][df][ef][ff][eh][fh][gh][gi]C[So, back to the ko fight.
-
-Let's add some more context to the board.]
-;AB[hg]LB[hg:1]TR[fb]C[Here, since black is unable to play the marked recapture move, he might play at the bottom right.
-
-Under normal circumstances, white would just capture that stone.  However, if white responds to black's move, black can recapture ko.]
-;AE[hg]AW[hf]
-;AE[eb]AB[fb]
-;AE[ea][fb][hf][hh][hi][ii]AW[da][eb]AB[hg][ih]LB[da:1][ih:2]C[If white decides to instead win the ko, black will at least have some compensation.]
-;AE[da][ih]AW[hh][hi][ii]AB[ea]TR[hg]C[Black's initial move is called a ko threat.  That is, a move that prompts a response from the opponent with the goal of winning the ko fight.]
-;AE[ea][fa][db][eb][gb][cc][ec][fc][ed][fd][de][ee][fe][df][ef][hg][eh][ii]AW[he][ie][hf]AB[gd][hd][id][ge][fg][hi]C[Now for some practice.
+;AE[ii]AW[he][ie][gf][hf][gg]AB[gd][hd][id][ge][ff][fg][fh][gh]C[Now for some practice.
 
 Problem 5
 
 Find the ko which creates a false eye
 
-|Show answer;0,0,0,0,1;50|]
+|Show answer;0,0,0,0,1;40|]
 (;AE[gd][hd][id][he][ie][hf][ig][hh][gi][hi]AW[dd][ed][fd][ce][ge][cf][cg][fg][bh][gh][bi][fi]AB[de][ee][fe][df][dg][eg][ch][dh][ci]C[Problem 6
 
 Black must create a ko to live.
 
-|Show answer;0,0,0,0,0,1;51|]
+|Show answer;0,0,0,0,0,1;41|]
 (;AE[dd][ed][de][bh][ch][fh][gh][bi][ci][fi]AW[cb][eb][fb][gb][dc][gc][cd][hd][be][dh][eh]AB[ec][fc][fd][gd][ce]C[Problem 7
 
 Again, black must create a ko for life.
 
-|Show answer;0,0,0,0,0,0,1;52|]
+|Show answer;0,0,0,0,0,0,1;42|]
 (;AE[cb][eb][fb][gb][dc][ec][fc][gc][cd][fd][gd][hd][be][fe][ge][df][ff][gf][dg][eg][fg][gg]AW[ee][ef][bh]AB[cc][de][bf][bg][ch][di]C[Problem 8
 
 Black can create a ko worth several points.
 
-|Show answer;0,0,0,0,0,0,0,1;53|]
+|Show answer;0,0,0,0,0,0,0,1;43|]
 (;AE[cc][ce][de][ee][bf][cf][ef][bg][cg][bh][ch][dh][eh][di]C[That's it for this lesson!
 
 Next week we'll look at some common shapes and some endgame techniques.])
