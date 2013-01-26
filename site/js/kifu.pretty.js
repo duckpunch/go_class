@@ -138,6 +138,9 @@ Stone.prototype.mergeGroup = function() {
             } else if (neighbor_group) {
                 this.group = neighbor_group;
                 neighbor_group.stones.push(this);
+            } else if (this.group) {
+                neighbor.group = this.group;
+                this.group.stones.push(neighbor);
             } else {
                 neighbor.group = this.group = new Group([this, neighbor]);
             }
@@ -151,7 +154,7 @@ Stone.prototype.killNeighbors = function() {
         if (neighbor && neighbor.color != this.color) {
             var group = neighbor.group || neighbor;
             if (!group.hasLiberty()) {
-                group.die();
+                this.board.dispatchEvent("stones_killed", group.die());
             }
         }
     }
@@ -214,6 +217,7 @@ Group.prototype.die = function() {
         stone.group = null;
         stone.removeFromBoard();
     });
+    return [this.stones];
 }
 function Record() {
     this.board = new Board();
@@ -222,6 +226,25 @@ function Record() {
     this._static_moves = {w: {}, b: {}};
     this._variation_stack = [];
     this._variation_index = -1;
+
+    // Static position needs to be updated when stones are killed
+    var record = this;
+    this.board.addEventListener("stones_killed", function(dead_stones) {
+        var i, key, w = record._static_moves.w, b = record._static_moves.b;
+        for (i = 0; i < dead_stones.length; i++) {
+            for (key in w) {
+                if (key == indeciesToSgfCoord(dead_stones[i])) {
+                    delete w[key];
+                }
+            }
+
+            for (key in b) {
+                if (key == indeciesToSgfCoord(dead_stones[i])) {
+                    delete b[key];
+                }
+            }
+        }
+    });
 }
 
 Record.prototype.loadFromSgfString = function(sgf_data) {
@@ -484,6 +507,14 @@ function sgfCoordToIndecies(sgf_coord) {
         return [];
     }
 }
+
+function indeciesToSgfCoord(xy_obj) {
+    if (xy_obj) {
+        return String.fromCharCode(xy_obj.x + 97) + String.fromCharCode(xy_obj.y + 97);
+    } else {
+        return "";
+    }
+}
 function drawBoard(board, canvas) {
     var ctx = canvas.getContext("2d"), dim = 450, margins = 30,
         i, j, dx, dy, x_pos, y_pos, stone, black_stone, stone_radius, padded_stone_radius;
@@ -585,42 +616,41 @@ function drawBoard(board, canvas) {
         }
     }
 }
+$.fn.kifu = function(sgf_data_or_url) {
+    if (this.length == 0 || !this[0].getContext) {
+        return this;
+    }
 
-    $.fn.kifu = function(sgf_data_or_url) {
-        if (this.length == 0 || !this[0].getContext) {
-            return this;
-        }
-
-        var record = this.data("kifu_record"), jq_obj = this;
-        if (!record) {
-            record = new Record();
-            record.board.addEventListener("change", function() {
-                drawBoard(this, jq_obj[0]);
-            });
-            if (typeof sgf_data_or_url === "string") {
-                if (endsWith(sgf_data_or_url, ".sgf")) {
-                    // Return the deferred ajax object
-                    return $.ajax({
-                        url: sgf_data_or_url,
-                        dataType: 'text',
-                        success: function(data) {
-                            record.loadFromSgfString(data);
-                            jq_obj.data("kifu_record", record);
-                        }
-                    });
-                } else {
-                    record.loadFromSgfString(sgf_data_or_url);
-                }
+    var record = this.data("kifu_record"), jq_obj = this;
+    if (!record) {
+        record = new Record();
+        record.board.addEventListener("change", function() {
+            drawBoard(this, jq_obj[0]);
+        });
+        if (typeof sgf_data_or_url === "string") {
+            if (endsWith(sgf_data_or_url, ".sgf")) {
+                // Return the deferred ajax object
+                return $.ajax({
+                    url: sgf_data_or_url,
+                    dataType: 'text',
+                    success: function(data) {
+                        record.loadFromSgfString(data);
+                        jq_obj.data("kifu_record", record);
+                    }
+                });
             } else {
-                record.loadFromSgfString(this.html());
+                record.loadFromSgfString(sgf_data_or_url);
             }
-            drawBoard(record.board, this[0]);
-            this.data("kifu_record", record);
+        } else {
+            record.loadFromSgfString(this.html());
         }
-        return record;
+        drawBoard(record.board, this[0]);
+        this.data("kifu_record", record);
     }
+    return record;
+}
 
-    function endsWith(str, suffix) {
-        return str.indexOf(suffix, str.length - suffix.length) !== -1;
-    }
+function endsWith(str, suffix) {
+    return str.indexOf(suffix, str.length - suffix.length) !== -1;
+}
 })(jQuery);
