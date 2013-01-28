@@ -1,0 +1,118 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[Today's lesson is all about shape.
+
+We'll look at several common shapes and try to figure out if they are alive or dead.]
+;AW[ii][ji][ij][kj][ik][jk][kk]AB[ih][jh][hi][ki][hj][lj][hk][lk][il][jl][kl]TR[jj]C[Recall this shape.  Here, white is dead because he only has one eye.
+
+What if the eye was bigger?]
+;AE[kj]AW[ki][lj][lk]AB[kh][li][mj][mk][ll]TR[jj][kj]C[With 2 spaces inside, can you see why white is still considered dead with only 1 eye?
+
+The idea is that there is no way for white to make his inside liberties turn into 2 eyes to find life.]
+;AE[ij]AW[hi][hj][hk]AB[hh][gi][gj][gk][hl]C[How about 3 internal liberties?  In this case, it depends on who goes first.]
+;AW[jj]C[If it is white's turn, he can create two eyes.]
+;AB[jj]C[If it is black's turn, white is in trouble.]
+;AW[kj]C[If it is white's turn and he plays inside, he is left with only 1 liberty.]
+;AE[hi][ii][ji][ki][hj][kj][lj][hk][ik][jk][kk][lk]AB[ij]
+;AE[ij]AW[hi][ii][ji][ki][hj][lj][hk][ik][jk][kk][lk]C[If white passes or plays away, notice that white currently only has 2 liberties.]
+;AB[kj]C[Now white is down to 1.]
+;AE[jj][kj]AW[ij]C[Now it is back to the shape we know to be 1 eye and dead.
+
+We'll call this 3-in-a-row position "conditionally alive".  The "condition" being who goes first.]
+;AE[gi][ji][gj][gk][hl]AW[ih][jh][kh]AB[ig][jg][kg][lh][hi][hj][hk]C[How about this version of 3 internal liberties?
+
+Can you find the key point here?]
+;TR[jj]C[This is it!  White will live or die depending on who plays first.  This shape is also conditionally alive.]
+;AE[ki]AW[li]AB[mi]C[Let's look at some shapes with 4 internal liberties.  This one is called "box 4".  Can you figure out what it's status is?]
+;AW[ki]TR[ki]C[If it is white's turn, notice that anywhere he plays creates the the group of 3 we already looked at.  Now that it is black's turn, white is dead.
+
+This means the "box 4" is dead shape.]
+;AE[ij]AW[hi][hj]AB[hg][mh][gi][gj][gk]C[Can you find the key point with this shape?]
+;TR[jj]C[This is it!  The white shape is conditionally alive.]
+;AE[ii]AW[ij]C[Can you determine the status of this shape?]
+;LB[ji:A][jj:B]C[It's alive!
+
+We call the two key points here "miai".  The idea is, if black takes one of those points, white can take the other to live.
+
+In go, miai typically represents 2 key points that accomplish the same thing.  In terms of life and death, we might say something like, "this white group is alive in miai".
+
+Miai is a Japanese word that loosely translates to "arranged marriage".  I'm not sure what that has to do with go...]
+;AW[jj]AB[ji]LB[ji:A][jj:B]
+;AW[ji]AB[jj]LB[ji:A][jj:B]
+;AE[hg][ig][jg][kg][hj][ij][jj]AW[ii][gj][gk][hk]AB[ih][jh][kh][fj][fk][gl][hl]C[4 in a row is also alive.
+
+Can you find the miai points?]
+;LB[ij:A][jj:B]C[Here it is!  Try to imagine the miai points with a black and white stone occupying A and B.]
+;AE[ii][fj][fk]AW[hh][ih][hj]AB[hg][ig][gh][gj][gk]C[This shape is called the "bent 4".
+
+Can you figure out the status?]
+;LB[ij:A][jj:B]C[Alive in miai!]
+;AE[hg][ig][gh][hh][ih][jh][kh][lh][mh][gi][hi][ji][ki][li][mi][gj][hj][lj][mj][gk][hk][ik][jk][kk][lk][mk][gl][hl][il][jl][kl][ll]AW[da][bb][cb][db][ac][bc]AB[ea][eb][cc][dc][ec][ad][bd][cd]C[The interesting thing about this shape is what happens when it is in the corner.
+
+Can you determine the status of "bent 4 in the corner"?]
+;AW[ba]C[If white goes first, we can see that the shape is alive.]
+;AE[ba]LB[aa:2][ba:3][ca:4][ab:1]C[Let's see what happens when black goes first.
+
+There are 4 possibilities.
+
+Notice that possibility 1, 2 and 4 would not prevent white from making the move from the previous slide.  You can try for yourself to see that white lives in those cases.]
+;AB[ba]C[Let's see what happens when black plays 3.
+
+Can you see a move that would help white get 2 eyes?]
+;AW[aa]C[White's best bet is to play here.]
+;AE[aa]AB[ab]TR[aa]C[Now we have a ko!
+
+The result is, the bent 4 in the corner is a ko.]
+;AE[ba][da][ea][ab][bb][cb][db][eb][ac][bc][cc][dc][ec][ad][bd][cd]AW[ii][ji][ki][li][ij][lj][mj][ik][mk][il][jl][kl][ll]AB[ih][jh][kh][lh][mh][hi][mi][hj][nj][hk][nk][hl][ml][nl][im][jm][km][lm]C[This one is called the "bulky 5".
+
+Can you determine the status of it?]
+;TR[kk]C[Conditionally alive!]
+;AE[ji][ij][nj][mk][nk][ml][nl]AW[ih][jh][kh][hi][hj][hk][kk]AB[hg][ig][jg][kg][hh][gi][gj][mj][gk][lk][gl][ll]C[How about this one?]
+;TR[jj]C[Also conditionally alive!
+
+You can probably imagine that there are many other shapes that 5 internal liberties can take.  The two that we've seen, the bulky 5 and this one, are the only ones that have the quality that they might be killed.
+
+Try arranging some yourself to see!]
+;AE[ik]AW[hl]AB[hm]TR[ji][kj]C[Of the different shapes that you can make having 6 internal liberties, this is the only shape that can be killed.  We call this shape "rabbity 6" - I guess the two marked points are the ears...
+
+Can you find the key point to this shape?]
+;TR[jj]C[This is it!
+
+The rabbity 6 is conditionally alive.]
+;AE[hg][ig][jg][kg][hh][ih][jh][kh][lh][mh][gi][hi][ii][ki][li][mi][gj][hj][lj][mj][gk][hk][kk][lk][gl][hl][il][jl][kl][ll][hm][im][jm][km][lm]AW[ba][ra][bb][jb][lb][rb][bc][lc][mc][pc][qc][rc][ad][bd][nd][od][on][pn][qn][rn][sn][eo][oo][cp][dp][fp][np][rp][bq][cq][eq][gq][hq][nq][br][hr][jr][or][pr][qr][rr][sr][bs][hs]AB[qa][cb][eb][mb][nb][pb][qb][cc][nc][oc][cd][be][ce][bg][po][qo][ro][so][op][dq][fq][oq][pq][qq][rq][sq][cr][dr][fr][gr][cs][gs]C[Some practice problems!  It is black's turn to move in each problem.
+
+Top Left: Black to kill the white stones. |Show answer;1;39|
+
+Top Right: Black to live. |Show answer;2;39|
+
+Bottom Left: Black to live. |Show answer;3;39|
+
+Bottom Right: Find the other miai point!  Black to live. |Show answer;4;39|]
+(;AE[ba][qa][bb][jb][lb][mb][bc][lc][mc][nc][oc][ad][nd][od][bg][on][eo][oo][fp][np][op][rp][nq][oq][dr][or][sr][bs][cs][gs][hs]AW[oa][cb][db][eb][pb][qb][sb][cc][fc][gc][fd][hd][be][he][bf][ff][gf][cg][fg][dh][eh][fh][qm][rm][sm][po][ro][pp][fq][pq][rq][qs][rs]AB[ob][dc][ec][pc][qc][rc][sc][ed][gd][fe][ge][cf][ef][dg][eg][rn][sn][sp][cq][er][qr][rr]C[Again, black to play for each position.
+
+Top Left: Sacrifice a few stones to save the whole black group. |Show answer;0,1;40|
+
+Top Right: Find the key point to create a false eye and kill white! |Show answer;0,2;40|
+
+Bottom Left: Find black's key point to live. |Show answer;0,3;40|
+
+Bottom Right: There aren't many possibilities here.  Black can live in one move. |Show answer;0,4;40|]
+(;AE[oa][ra][cb][db][eb][nb][ob][pb][qb][rb][sb][cc][dc][ec][fc][gc][pc][qc][rc][sc][bd][cd][ed][fd][gd][hd][be][ce][fe][ge][he][bf][cf][ef][ff][gf][cg][dg][eg][fg][dh][eh][fh][qm][rm][sm][pn][qn][rn][sn][po][qo][ro][so][cp][dp][pp][sp][bq][cq][dq][eq][fq][gq][hq][pq][qq][rq][sq][br][cr][er][fr][gr][hr][jr][pr][qr][rr][qs][rs]C[That's it!
+
+Next week we'll look at the opening and how stones move across the board.])
+(;CR[de]AB[de]
+;CR[ee]AE[gd][fe][ge]AW[ee]
+;CR[fe]AE[ee]AB[fe]C[Black lives.])
+(;CR[pa]AB[pa]C[White cannot create two eyes anymore.])
+(;CR[ds]AB[ds]
+;CR[bs]AW[bs]
+;CR[cs]AB[cs]
+;CR[gs]AW[gs]
+;CR[fs]AB[fs])
+(;CR[qp]AB[qp]TR[rp]C[White cannot play the marked move so black will live.]
+;CR[sr]AW[sr]C[There is no ko here.]
+;CR[rp]AE[ro][rq]AB[rp]))
+(;CR[ab]AB[ab]C[This is the basic 3-in-a-row shape.])
+(;CR[oa]AB[oa]C[Black's two eyes are clear.])
+(;CR[es]AB[es]TR[er]C[Notice that white cannot approach the marked position.])
+(;CR[qp]AB[qp]C[This is the other miai point.]))
