@@ -1,6 +1,12 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[9]KM[6.50]
-PW[Saul]PB[Devorah]
+PW[Saul]PB[Devorah]C[Some interesting back and forth action in this game.
+
+White was definitely quite aggressive in the beginning and left a lot of cutting points.  As black, you must take advantage of this.
+
+That said, black did a great job setting herself up for the win while white had to repair all the cut points.
+
+Keep up the good work!]
 ;B[ed]
 ;W[ff]
 ;B[dd]
@@ -11,33 +17,35 @@ PW[Saul]PB[Devorah]
 ;W[df]
 ;B[fe]
 ;W[ce]
-;B[cd]
+;B[cd]TR[ef]C[Black should capture here!]
 ;W[gd]
 ;B[fc]
 ;W[gc]
-;B[ec]
-;W[bd]
-;B[gg]
-;W[ef]
+;B[ec]TR[gb][be][cf][ef]C[This move is strange.  Alternative moves are marked.
+
+The idea is, you want to play moves that help define your territory or reduce your opponent's territory.]
+;W[bd]TR[be][cf][ef][gf]C[This move is perhaps a bit too aggressive.  White is leaving a lot of cutting points in his shape.]
+;B[gg]C[When the opponents shape is weak, it is usually better to exploit it by cutting it.
+
+Remember, you should work towards connecting your own stones when possible and disconnecting your opponents.]
+;W[ef]C[Good move defending the atari.]
 ;B[eh]
 ;W[gf]
-;B[gb]
+;B[gb]C[Nice move for territory.]
 ;W[hc]
 ;B[dh]
-;W[cf]
+;W[cf]C[Another good move to defend the cut points.]
 ;B[bf]
-(;W[bb]
-;B[cb])
-(;W[bc]
+;W[bc]
 ;B[cc]
 ;W[be]
-;B[fh]
+;B[fh]C[Black is well ahead, provided she can live with her two groups.]
 ;W[cg]
-;B[eg]
+;B[eg]TR[hg]C[Maybe a better move for black would have been to expand the space for eyes along with potential territory.]
 ;W[hf]
 ;B[ch]
 ;W[hg]
-;B[he]
+;B[he]TR[hh]C[Remember to try to stay connected when possible.  Black's move is too far from her allies!]
 ;W[bg]
 ;B[gh]
 ;W[id]
@@ -58,4 +66,4 @@ PW[Saul]PB[Devorah]
 ;B[di]
 ;W[dg]
 ;B[fg]
-;W[af]))
+;W[af])

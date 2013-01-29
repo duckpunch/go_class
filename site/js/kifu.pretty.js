@@ -223,6 +223,8 @@ function Record() {
     this.board = new Board();
     this.current_move = null;
     this.root_move = null;
+    this.black_player = "";
+    this.white_player = "";
     this._static_moves = {w: {}, b: {}};
     this._variation_stack = [];
     this._variation_index = -1;
@@ -231,16 +233,18 @@ function Record() {
     var record = this;
     this.board.addEventListener("stones_killed", function(dead_stones) {
         var i, key, w = record._static_moves.w, b = record._static_moves.b;
-        for (i = 0; i < dead_stones.length; i++) {
-            for (key in w) {
-                if (key == indeciesToSgfCoord(dead_stones[i])) {
-                    delete w[key];
+        if (dead_stones && dead_stones.length) {
+            for (i = 0; i < dead_stones.length; i++) {
+                for (key in w) {
+                    if (key == indeciesToSgfCoord(dead_stones[i])) {
+                        delete w[key];
+                    }
                 }
-            }
 
-            for (key in b) {
-                if (key == indeciesToSgfCoord(dead_stones[i])) {
-                    delete b[key];
+                for (key in b) {
+                    if (key == indeciesToSgfCoord(dead_stones[i])) {
+                        delete b[key];
+                    }
                 }
             }
         }
@@ -321,6 +325,10 @@ Record.prototype.loadFromSgfString = function(sgf_data) {
                 } else if (method == "SZ") {
                     this.board.size = parseInt(value);
                     this.board.clearBoard()
+                } else if (method == "PW") {
+                    this.white_player = value;
+                } else if (method == "PB") {
+                    this.black_player = value;
                 }
             }
         } else {
