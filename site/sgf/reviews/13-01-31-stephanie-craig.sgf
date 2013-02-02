@@ -1,0 +1,73 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[6.50]
+PW[Stephanie]PB[Craig]C[Nice first(-ish) real game of go!
+
+Early on, there seemed to be a string of very slow moves.  Slow moves are moves that don't expand your territory fast enough.  Later the game got pretty interesting.  Black had an excellent middle game and white had a great endgame.]
+;B[gc]
+;W[ed]
+;B[fc]
+;W[ee]
+;B[ge]
+;W[dc]
+;B[gf]
+;W[dd]LB[dg:A][fg:B]TR[eb]C[This is the first move of the game that doesn't add much value.  The idea in the opening is to try to establish an outline of the territory you're going after.  This move doesn't do that.  It also does not threaten any of the territory black has outlined.
+
+Marked are some alternatives.  'A' is more defensive and 'B' is more aggressive.  I think both are fine.]
+;B[fd]LB[cg:A]TR[eb][eg]C[This is very similar to white's last move in that it doesn't add that much value.  In this case, black protects about 1 point or so.  Marked are alternatives.  The triangle moves are more territorial.
+
+Black could also consider playing at 'A'.  The strategy would be to try to live in the bottom left corner as opposed to just reducing white's territory.]
+;W[cd]C[This move is slow for the same reason as the previous two.]
+;B[hd]C[Also slow.  There is no need to make an eye here]
+;W[cf]C[Nice.  This one starts to expand white's territory.]
+;B[ec]TR[eg]C[This move is a bit small, but at least it makes black's territory slightly larger.
+
+The bottom area is getting to be very important for both players.  Whoever takes the marked point will be in great shape]
+;W[cg]C[This is not the marked move, but it does expand white's possible territory.]
+;B[ef]C[Great move.]
+;W[dh]C[Good followup.]
+;B[dg]TR[eh][fh]C[This one is not as strong.  Black should have maybe played one of the marked moves.]
+;W[eg]C[Nice atari here.]
+;B[eh]
+;W[df]
+;B[fg]
+;W[fh]
+;B[dg]
+;W[ff]
+;B[fe]
+;W[eg]
+;B[db]
+;W[ei]
+;B[cc]LB[cb:A][eb:B][gh:C]C[I like the direction of this move, but it leaves black open with cut points 'A' and 'B'.
+
+The alternative for black would be to play 'A' ]
+;W[ff]
+;B[bc]C[Great move.  Threatens to reduce white while fixing your cut points.]
+;W[bd]
+;B[gg]
+;W[ad]
+;B[ef]TR[gh]C[I think ko is small at this point.  Maybe the marked point is bigger.]
+;W[cb]
+;B[ff]TR[bb]C[I think black must respond to white's move.]
+;W[gh]C[Big move for white.]
+;B[hh]
+;W[bb]
+;B[hi]
+;W[ac]
+;B[gi]TR[da]C[A bigger move for black at this point, is to defend the top.]
+;W[eh]
+;B[ca]TR[eb]C[White should atari here.  This creates a ko.
+
+|See variation;1;46|]
+(;W[ea]
+;B[ab]TR[eb]C[Black should defend here.]
+;W[aa]
+;B[ba]
+;W[da]
+;B[fa]
+;W[hg]
+;B[eb]
+;W[ca]
+;B[hf])
+(;W[eb]
+;B[ea]
+;W[da]C[Ko for territory.]))
