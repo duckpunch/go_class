@@ -1,0 +1,30 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[0.00]
+PW[Lee Anne]PB[Dan]AW[mg][kh][lh][mh][kj][lj][kk][ll]AB[lf][mf][kg][lg][jh][hj][jj][jk][lk][il][kl]TR[mg][kh][lh][mh]C[Later there was an exchange which resulted in this position.  At this point, black could no longer kill the whole white group, but he was able to kill the marked white stones.]
+;B[ki]CR[ki]LB[li:A][mk:B][lm:C]C[3 possibilities for white.
+
+|A results in ko for life;1;2|
+
+|B results in ko for life;2;2|
+
+|C results in a sacrifice and life in the corner for white;3;2|]
+(;W[]C[That's basically it.  If you have any similar questions, feel free to let me know!])
+(;W[li]CR[li]
+;B[ml]CR[ml]LB[mk:A][lm:B]C[Two options for white here.
+
+Hit "Next" for variation "A".
+
+|See variation B;1,1;4|]
+(;W[mk]CR[mk]
+;B[lm]CR[lm]C[Ko for life.])
+(;W[lm]CR[lm]
+;B[mj]CR[mj]C[Ko for life.]))
+(;W[mk]CR[mk]
+;B[lm]CR[lm]
+;W[li]CR[li]
+;B[ml]CR[ml]C[Ko for life.])
+(;W[lm]CR[lm]
+;B[li]CR[li]
+;W[mk]CR[mk]
+;B[mi]CR[mi]
+;W[mj]CR[mj]C[Stones sacrificed, but white lives.]))

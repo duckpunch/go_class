@@ -1,0 +1,29 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[0.00]
+PW[Lee Anne]PB[Dan]AW[kh][lh][kj][lj][kk][ll]AB[kg][lg][jh][hj][jj][jk][lk][il][kl]C[In Dan and Lee Anne's game, this position came up.  Dan asked me to elaborate on a comment I made while they were playing.
+
+This is the start position at move 47.
+
+Black can kill the entire white group.]
+;B[mk]CR[mk]LB[mj:A][ml:B][lm:C]C[Black's first move is crucial.  White's 3 most sensible responses are A, B, C.
+
+|Response A;1;2|
+
+|Response B;2;2|
+
+|Response C;3;2|]
+(;W[]C[Later there was an exchange that altered this position.  Check out part 2 from the home page.])
+(;W[mj]CR[mj]
+;B[lm]CR[lm]
+;W[ml]CR[ml]
+;B[ki]CR[ki]LB[mh:A][li:B]C[Miai for the last eye.])
+(;W[ml]CR[ml]
+;B[lm]CR[lm]
+;W[mj]CR[mj]
+;B[mh]CR[mh]LB[ki:A][mi:B]C[Miai for the last eye.])
+(;W[lm]CR[lm]C[Perhaps white's strongest defense.]
+;B[ml]CR[ml]
+;W[mj]CR[mj]TR[ll][lm]C[White must play here or else black will kill the marked white stones.]
+;B[mh]CR[mh]LB[ki:A][mi:B]C[A and B are miai for an eye.
+
+White only has one eye in the corner.]))
