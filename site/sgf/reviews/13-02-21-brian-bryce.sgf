@@ -1,0 +1,209 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]HA[5]KM[0.00]
+PW[Brian]PB[Bryce]AB[dd][jd][jg][dj][jj]TR[gg][jg]C[Interesting game!
+
+I like that black was picking fights with white through the whole game.  Handicap games are for learning how to fight properly.  Don't be discouraged with the outcome of this game.  There were many very complicated situations, some deliberately created by white, others by black.  I included sequences in some situations that would have lead to more favorable outcomes for black along with some moves that produce simpler games.
+
+The general way to simplify a position is to stay connected.
+
+Normally 5 stone handicaps are played with the marked black stone in the middle of the board.]
+;W[cf]
+;B[ce]
+;W[df]
+(;B[ef]C[This is the first move that is a bit off.  It's usually better to just protect the top side with this move.
+
+|See variation;1;4|]
+;W[de]TR[cd][ee]C[White plays this move to create cut points in black's shape.]
+;B[cd]
+;W[ee]TR[fc][ef]C[At this point, it is probably better to regard the marked black stone lightly (effectively sacrificing it for now) and play on the upper side.
+
+|See variation;0,1;8|]
+(;B[fe]TR[ff]C[This move is not too strong because it creates a cut point.
+
+There is a proverb which states, "You must clench your fist before you punch your opponent".  In essence, black must protect his own weakness before looking to attack white.]
+;W[ed]C[White continues trying to disconnect black.]
+;B[ec]
+;W[fc]
+;B[dc]
+;W[fd]TR[fe][ef]C[Notice that at this point, white has completely disconnected the black corner group, stayed completely connected and black's two marked stones are in a weak position.]
+;B[ff]C[Good move connecting here for black.]
+;W[gj]
+;B[fk]C[Strong move by black.]
+;W[gk]
+;B[ek]
+;W[kj]
+(;B[ki]C[Black can also consider keeping the two white groups separate.
+
+|See variation;0,0,1;20|]
+;W[jk]
+;B[kk]C[This move picks a fight.  I like it!
+
+This leads to a pretty complicated fighting sequence.  I'll show what I think would result in the best outcome for black.]
+;W[lj]
+(;B[lk]C[Black should atari instead of this move.
+
+|See variation;0,0,0,1;24|]
+;W[li]
+;B[ji]
+;W[ll]
+(;B[jl]C[Better to atari from the other side.
+
+|See variation;0,0,0,0,1;28|]
+;W[ik]
+;B[mj]TR[kl]C[Black must block his cutpoint to maintain tension in this fight.]
+;W[kl]C[Now that white has connected all his stones, he has nothing to worry about.]
+;B[il]
+;W[hl]
+;B[lh]
+;W[mk]
+;B[ch]
+;W[kc]
+(;B[ic]LB[jc:A][kd:B]C[Either marked option is better for black.
+
+|See variation A;0,0,0,0,0,1;38|
+
+|See variation B;0,0,0,0,0,2;38|]
+;W[kd]
+;B[ke]
+;W[le]
+;B[je]
+;W[dh]
+;B[ci]
+;W[ge]
+;B[gf]
+;W[hf]
+(;B[gd]C[Better to take the other atari.
+
+|See variation;0,0,0,0,0,0,1;48|]
+;W[he]
+;B[hd]
+;W[gg]
+;B[eg]
+;W[eh]
+;B[fh]
+;W[dg]
+;B[fg]
+;W[fi]
+;B[fb]
+;W[gb]
+;B[eb]
+;W[hc]
+;B[id]
+;W[ib]
+;B[ga]
+;W[jb]
+;B[lf]
+;W[ld]
+;B[me]
+;W[bf]
+;B[be]
+;W[ck]
+(;B[cj]C[I think black should be able to kill white.
+
+I've added one of the possible variations that leads to black killing white.
+
+|See variation;0,0,0,0,0,0,0,1;72|]
+;W[dl]
+;B[bk]
+;W[bl]
+;B[dk]
+;W[cl]
+;B[el]
+;W[bj]
+;B[dm]
+;W[bi]
+;B[bh]
+;W[ae]
+;B[ad]
+;W[af]
+;B[bd]TR[bc]C[If you are looking to defend here, the marked move is probably better since it creates some eye shape.]
+;W[ha]
+;B[fa]
+;W[md]
+;B[gc]
+;W[hb]
+;B[mf]
+;W[ih]
+;B[jh]
+;W[ii]
+;B[ig]
+;W[if]
+;B[jf]
+;W[hg]
+;B[gl]
+;W[gm]
+;B[fl]
+;W[mh]
+;B[mg]
+;W[mi]
+;B[kg]
+;W[cm]
+;B[em]
+;W[ij]
+;B[fm]
+;W[hm]
+;B[ag]
+;W[jc]
+;B[ie]
+;W[ak]
+;B[ai]
+;W[bg]
+;B[ah]
+;W[aj]
+;B[am]
+;W[di])
+(;B[dl]
+;W[cl]
+;B[cj]
+;W[bj]
+;B[bi]
+;W[bl]
+;B[ak]
+;W[aj]
+;B[ai]
+;W[bk]
+;B[cm]
+;W[bm]
+;B[al]
+;W[dm]
+;B[el]
+;W[ej]
+;B[dk]
+;W[di]
+;B[em]
+;W[fj]
+;B[cm]
+;W[am]
+;B[al]C[This is a ko, but it is very difficult for white to win.  Since black has so many outside liberties, white will have to win the ko several times.]))
+(;B[he]
+;W[gd]
+;B[hg]
+;W[if]
+;B[ig]
+;W[ie]
+;B[hd]TR[fc][ed][fd][gd][de][ee][ge][cf][df][dh]C[White still needs to help this group.]))
+(;B[jc]TR[fc][kc][ed][fd][de][ee][cf][df]C[The idea with this move is to attack the big group of marked white stones.  Also, white's invasion stone needs help to survive.])
+(;B[kd]TR[ld][md][je][jf][jh][mh]C[The idea here would be to make territory on the right side.  Personally, I like the other variation.]))
+(;B[ik]
+;W[jl]
+;B[il]
+;W[kl]
+;B[dg]TR[ge][he][ie][je][jf][dh][jh][di][gj][gk][gl][hl]C[Note that the white stones are in trouble.  Black has a shot at taking huge center territory.]))
+(;B[ik]C[From this point, I'll show what I think are the best moves for both players in this local position.
+
+I've deliberately kept the comments to a minimum since I think it can become pretty confusing.  Let me know if you have any questions.]
+;W[jl]
+;B[ij]
+;W[kl]LB[il:A]C[White may also play 'A', but I think that variation does not end as well.]
+;B[il]
+;W[li]
+;B[kh]C[It is now white's turn.  The corner is alive and he can play a big move elsewhere.]))
+(;B[ji]
+;W[jk]
+;B[ik]
+;W[kk]
+;B[il]
+;W[lh]
+;B[dg]TR[gj][gk]C[Black can aim for killing the marked white stones and take a big chunk of center territory.]))
+(;B[fc]TR[ef]C[It is not easy for white to kill the marked black stone in one move.]))
+(;B[fd]TR[cf][df]C[The idea here is that black is not easily disconnected.  Also, remember that the marked white stones need to eventually find life.  White does not have time to try to reduce black's top left corner.]))

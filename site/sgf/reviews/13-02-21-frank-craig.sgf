@@ -1,0 +1,148 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[0.00]
+PW[Frank]PB[Craig]C[Overall, good game.  Black lost ground in some key spots by playing relatively small moves.  The key is to read whether or not your opponent can actually hurt you.  If they can, then you should defend it accordingly.  If they cannot, you should not play moves there.
+
+If it so happens that your reading is incorrect, don't worry about it.  You may lose the game, but in the grand scheme of things, it is better to always trust your own reading.]
+;B[dj]
+;W[kd]
+;B[dd]
+;W[jk]
+;B[id]
+;W[ic]
+;B[hc]
+;W[jc]
+;B[jj]TR[hd]C[Normally, black does not leave the marked move unplayed.  White can now cut there anytime he wants.
+
+|See variation;1;10|]
+(;W[kj]
+;B[ij]
+;W[ik]
+(;B[jh]CR[jh]TR[ki]C[This move isn't bad, but the one thing it doesn't do is prevent white from taking more territory along the corner and side.  For instance, white can take the marked point next.
+
+The alternative to this black move is if black takes the triangle point.
+
+|See variation;0,1;13|]
+;W[hj]
+;B[ih]
+;W[ch]
+(;B[jd]CR[ch]LB[hd:A][fk:B]C[This move doesn't provide much for black.  It does, however, give white the opportunity to exploit the marked cut point.  The alternative for black here would be just to take the point marked 'A'.
+
+The other possibility is for black to respond to white's move.  Something like 'B' would work.
+
+|See variation A;0,0,1;17|
+
+|See variation B;0,0,2;17|]
+;W[hd]
+;B[he]
+;W[gd]
+;B[ke]
+;W[kc]
+;B[ie]
+;W[fc]
+;B[dh]
+;W[dg]
+(;B[di]TR[eh]C[This is not a bad move, but perhaps a more effective one would be the marked spot.
+
+|See variation;0,0,0,1;27|]
+;W[cf]
+;B[eg]
+;W[ef]
+;B[eh]LB[cc:A][ki:C][gk:B]C[It is not as important here to protect one stone as it is to play a move elsewhere.  Marked are some other possibilities.
+
+'A' tries to live in the corner.
+
+'B' expands the bottom territory.
+
+'C' expands the right territory.]
+;W[cc]
+;B[de]
+;W[df]
+;B[bh]
+;W[bg]
+;B[ci]C[Good idea trying to protect the corner here.]
+;W[el]
+;B[cg]C[This ko is comparatively small.  It is better to prevent white from taking the bottom left corner.]
+;W[ck]
+;B[jf]TR[ki]C[This move is also small.  A better move would be the marked move]
+;W[ff]
+;B[ek]C[Nice move reducing the potential size of white here.]
+;W[fl]
+;B[bk]C[Important point for the corner.]
+;W[bl]
+;B[bj]
+;W[ki]
+;B[al]TR[kh]C[At this point, the marked spot might be bigger.]
+;W[cl]
+;B[dk]
+;W[dl]
+;B[fe]
+;W[ge]
+;B[gf]
+;W[dc]
+;B[fd]
+;W[gc]
+;B[hb]
+;W[gg]
+;B[hf]
+;W[ed]
+;B[ee]
+;W[ec]
+;B[hk]
+;W[gj]
+;B[ce]
+;W[be]
+;B[fg]
+;W[cd]
+;B[gh]
+;W[lg]
+;B[kg]
+;W[lh]
+;B[kk]
+;W[kl]
+;B[jl]
+;W[il]
+;B[kh]
+;W[le]
+;B[lf]
+;W[mf]
+;B[kf]
+;W[ld]
+;B[fk]
+;W[gk]
+;B[hi]
+;W[ah]
+;B[ai]
+;W[ag]
+;B[fj]
+(;W[hl]C[As mentioned, white has to make this kill.
+
+|See what happens if white does not respond here;0,0,0,0,1;92|]
+;B[gi]
+;W[bm]
+;B[ak]
+;W[ch]
+;B[bi]
+;W[ji]
+;B[ii]
+;W[cg])
+(;W[bm]CR[bm]TR[fj]C[White ignores black's move.]
+;B[hl]
+;W[jm]
+;B[gl]TR[gj][hj][gk]C[White is in deep trouble.]))
+(;B[eh]TR[ih][jh]C[Here, black is now closer to his other stones.]))
+(;B[hd]TR[dj]C[In this situation, black is fine on the top and on the right.  That said, the bottom left will now likely come under attack.])
+(;B[fk]TR[dh][ci]C[Black plays this move to ensure the corner cannot be turned into a weak group.
+
+Marked are other possibilities.  The idea is the same, though.]
+;W[bj]
+;B[ck]
+;W[cf]))
+(;B[ki]
+;W[kk]C[Black must defend here.]
+;B[jh]C[Black defends his cut point.
+
+Note that white's corner is now limited to expanding to the left.  White can no longer expand upwards.]))
+(;W[hd]
+;B[gd]
+;W[he]
+;B[gc]))
