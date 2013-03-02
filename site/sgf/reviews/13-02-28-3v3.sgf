@@ -1,0 +1,171 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[6.50]
+PW[Steven, David, Lynda]PB[Manjae, Trinh, Geoff]C[Fun game!
+
+In all, I thought both sides found the big areas relatively soon.  The key in most cases was finding the right move in the area.  This can greatly impact the direction the game takes.]
+;B[jc]
+;W[dk]
+;B[di]
+;W[ci]
+;B[ch]
+;W[cj]
+;B[dh]
+;W[fk]
+;B[dd]C[Nice that you guys played the joseki out :)
+
+An interesting thing here will be to see how this turns out at the end of the game.]
+;W[ik]TR[jj][kj]C[I think white should have extended a bit further here.  Perhaps to either of the marked points.
+
+The idea is, if white plays to here, black can play a deep move in the corner.
+
+|See variation;1;11|]
+(;B[jk]
+(;W[kg]TR[jk]C[In go, there is often an unspoken dialog between both players.  Here, white is saying one of two things to me.  Either you don't care that if triangle lives or you don't care.  In this position, I think white is better off first putting pressure on that stone.
+
+|See variation;0,1;12|]
+(;B[kf]C[Black should capitalize on the breathing room white has allowed in the corner.
+
+|See variation;0,0,1;13|]
+;W[ji]
+(;B[lj]C[Perhaps a better sequence is to force white's hand each step of the way.
+
+|See variation;0,0,0,1;15|]
+;W[jj]
+;B[kk]
+;W[ij]
+;B[gd]C[A big move by black.]
+;W[lf]TR[cc]C[White should invade instead.]
+;B[ke]
+;W[cd]C[Good move.]
+;B[cf]TR[cc]C[A better move is the marked one.  The idea is to defend as much of the corner as possible.]
+;W[ce]
+;B[de]
+;W[fd]TR[cd][fd][ce]C[This move creates two weak white groups.  Almost any black move in this area can hurt both groups simultaneously.]
+;B[fc]
+;W[bf]
+;B[bg]
+;W[dg]
+;B[hf]TR[cc]C[Instead of this move, black could have chosen to continue putting pressure on white.]
+;W[df]
+;B[cg]
+;W[gf]
+;B[gg]
+;W[dc]
+;B[ed]
+(;W[fe]C[This move indicates that white wants to save both groups.  I think that will be dificult here.  It is perhaps better to pick one group to live and sacrifice the other group.
+
+|See variation;0,0,0,0,1;38|]
+;B[ec]
+;W[cc]
+;B[eg]
+;W[ef]
+;B[ge]
+;W[jf]
+;B[ig]
+;W[jg]
+;B[hi]TR[je]C[I think black can do better defending at the marked move.]
+(;W[he]TR[kd]C[Nice move.  This move takes advantage of black's cut points.  Though black can still cut it off, it looks to be pretty difficult to deal with.
+
+Marked is another move white can also try.
+
+|See variation;0,0,0,0,0,1;48|]
+;B[ie]
+;W[je]
+;B[jd]
+;W[hd]
+;B[ff]
+;W[gc]
+;B[gf]
+;W[jh]
+;B[fb]
+;W[kd]C[Big move.]
+(;B[kc]TR[fb]C[From the moment the marked stone was played, white's corner became vulnerable.
+
+|See variation;0,0,0,0,0,0,1;59|]
+;W[le]
+;B[id]
+;W[hj]
+;B[fj]
+;W[jl]
+(;B[lh]C[There is a better way to live.
+
+|See variation;0,0,0,0,0,0,0,1;65|]
+(;W[kj]C[There is also a better way to kill.
+
+|See variation;0,0,0,0,0,0,0,0,1;66|]
+;B[ki]
+;W[lk]TR[jc][kc][lc][mc][id][jd][ie][if][ig][ch][dh][hh][ih][ai][bi][di][ei][fi][gi][hi]C[Black is dead in the lower right.
+
+Notice that if we were to draw a line separating the board, that would be the territory distribution.  The game now hinges on the fate of the top left corner....
+
+Well, that's the end of this class series!])
+(;W[kl]C[The corner is typically most important.]
+;B[ll]
+;W[lm]
+;B[kj]
+;W[mk]))
+(;B[kl]
+;W[il]
+;B[mk]
+;W[ll]
+;B[lm]
+;W[ml]
+;B[lh]))
+(;B[be]
+;W[bd]
+;B[af]
+;W[bb]
+;B[ac]
+;W[ad]
+;B[db]
+;W[cb]LB[ca:B][ab:A]C['A' and 'B' are miai, white is dead.]))
+(;W[kd]LB[jd:C][je:A][le:B]C['A' and 'B' are miai, with 'C' being a choice for black as well.
+
+|Variation A;0,0,0,0,0,1,0;49|
+
+|Variation B;0,0,0,0,0,1,1;49|
+
+|Variation C;0,0,0,0,0,1,2;49|]
+(;B[je]
+;W[le]C[Not the best possibility for black.  Check out variation C.])
+(;B[le]
+;W[je])
+(;B[jd]C[Probably the strongest black response.]
+;W[je]
+;B[kc]
+;W[le])))
+(;W[ec]
+;B[fe]
+;W[cc]))
+(;B[jj]
+;W[ij]
+;B[ki]
+;W[jh]
+;B[lj]))
+(;B[ki]
+;W[jj]
+;B[kj]
+;W[jl]
+;B[kk]LB[ji:A][kl:B]TR[kg]C['A' and 'B' are miai for black.
+
+If white 'A', black lives comfortably with 'B'.  If white 'B', black can break out of the corner and disconnect triangle from the other white stones.]))
+(;W[jj]C[Black should still be able to live.]
+;B[kk]
+;W[kj]
+;B[il]
+;W[hk]
+;B[lj]
+;W[li]
+;B[lk]
+;W[kh]TR[cc][fc][ke]C[Here, black's stones are cut off from the rest of the board and white has a wall with which to attack.  He can aim for one of the marked moves.]))
+(;B[kj]
+;W[ji]
+;B[ki]
+;W[jh]
+;B[kg]
+;W[jg]
+;B[kf]
+;W[jf]
+;B[je]LB[je:10][jf:9][kf:8][jg:7][kg:6][jh:5][ji:3][ki:4][kj:2][ik:1]TR[ch][dh][di]C[This is a joseki!
+
+However, in this position, white gets the short end of the stick.  Black gets a bunch of side territory and the wall that white gets in compensation is weakend by the triangle-marked black stones.]))
