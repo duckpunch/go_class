@@ -1,0 +1,71 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[0.00]
+C[In this lesson, we're going to look at the games we played 2 weeks ago.  Here's a summary of the main points.
+
+1. Balancing urgent moves with big moves.
+2. Finding the right direction of play.
+3. Connecting and disconnecting.
+4. Playing the way you want to play.]
+;CR[kd]AW[dd][kd][ie]AB[jc][dj][kj]TR[ga][gb][gc][gd][ge][gf][hf][if][jf][kf][lf][mf]C[We'll start by looking at a position that came up in Saul and Stephanie's game.
+
+White has just played the marked move and it is black's turn to play.  The question here is, does black need to respond locally to white's move?
+
+In other words, does black owe a move to white here?  To figure this out, we need to first figure out what white can do if black were to play away.]
+;AW[hc]AB[gj]LB[hc:2][gj:1]TR[jc]C[Here, black takes a big move at the bottom and white continues to press the top right corner.
+
+There are a few things that come out of this exchange.
+
+First, the marked black move is likely disconnected from any other black stone currently on the board.  
+
+If black is to live, she must spend many moves in the corner and be left with a maximum of about 5 points.]
+;CR[kc]AW[kc]TR[hc][dd][ie]C[On the other hand, white can make many points by playing just one more move in the area.
+
+Furthermore, white begins to create a nice framework for territory on the lefthand side.]
+;CR[kc]AE[hc][gj]AB[kc]C[If we compare this to black responding locally, we'll see that black's corner group will have a much easier time with life.]
+;AW[hc]AB[ld]LB[hc:1][ld:2]TR[kf]C[If white plays the same pressure move, black 2 effectively guarantees life for black and also includes some nice followups.]
+;CR[ed]AE[hc][kc][ld]AW[ed]AB[dc]C[Later in the same game, this position came up.
+
+White has just played the marked move and it is black's turn to play.
+
+This is a similar situation in the sense that, if black does not respond locally to white's move, there is a very strong followup for white available.]
+;CR[jg]AB[jg]C[Black's next move was a big move in itself.  That said, white has a big followup in the top left corner.]
+;CR[gc]AW[gc]TR[dc][jc]C[Here, the assessment of the situation is similar to earlier.
+
+The difference this time is that the two marked stones are under attack.
+
+Though there are exceptions, the principle here is to not leave groups that are vulnerable to attack.
+
+As the proverb goes, "You do not have many weak groups - only 1.  The other ones are dead."]
+;CR[kk]AE[dc][gc][jc][ed][kd][ie][jg][kj]AW[dj][fk][kk]AB[hd][jd][hj][jj]LB[kj:A][jk:B]C[In Lee Anne and Dan's game, black is building a nice framework on the right hand side.  White (Lee Anne) just played the marked move as an invasion into black's territory.  The question at this point for black is, how best to defend his territory?]
+;CR[kj]AB[kj]C[The stronger choice here is 'A'.  Black continues to develop a strong presence on the right and white still owes a few moves in the bottom corner if she is to survive.]
+;AW[lj][lk][jl][ll]AB[li][mj][hl]LB[li:4][lj:3][mj:6][lk:7][hl:2][jl:1][ll:5]TR[fd][cf][df][ch][dh]C[After we play out the bottom right corner, it is still black's turn.  Black can now aim for either enlarging his framework or reducing the size of white's potential corners.
+
+Marked are some potential moves.]
+;CR[jk]AE[li][kj][lj][mj][lk][hl][jl][ll]AB[jk]C[If we pull back to the situation where white plays 'B', this is what we get.]
+;AW[lh][li][kj][jl][kl]AB[kg][kh][ki][il]LB[kg:6][kh:4][lh:5][ki:2][li:3][kj:1][il:8][jl:7][kl:9]TR[hd][jd][hj]C[If we play this out, white lives, but completely in the framework that black was building.
+
+The marked black stones are a lot less effective now.]
+;CR[ed]AE[dd][hd][jd][kh][lh][ki][li][hj][kj][jk][kk][il][jl][kl]AW[ed][fd][id][kg][ch][fj][jj]AB[fc][jc][cd][ke][cg][dj][fk]C[This position is from Jon and Craig's game.  So far, I would say black has a reasonable lead in the opening.  He controls 3 corners to white's 1 and does not have a weak group for white to attack.
+
+That said, the next move is very important.  White has just played the marked move.
+
+One way to think about this is, white is attacking black's territory in the upper left.  What is the best way to defend it?]
+;CR[ec]AB[ec]TR[fc][cd]C[If black plays the marked move, it simultaneously defends the top left corner and moves towards connecting the triangle marked black stones.]
+;TR[ed][fd]C[White on the other hand, builds a mini wall facing the center.]
+;AW[dd][be][ce]AB[cc][dc]LB[cc:4][dc:2][dd:1][be:5][ce:3]C[A continuation might look something like this.  At this point, the game will hinge on whether or not white can make effective use of his wall.]
+;AE[cc][dc][be][ce]AW[fb][ec]AB[eb][dd]LB[eb:3][fb:4][ec:2][dd:1]C[If we follow the game line, we get to this point.  It is again black's turn.]
+;AW[hd]AB[gc]TR[eb][fc][gc][cd][dd]C[Notice that in the local area, there are 3 black groups.  We need to decide what we want to do here.  The key is to try to strengthen your own group while keeping your opponent off balance.
+
+At this point, black can kill one white stone and connect two of the marked groups.]
+;CR[gb]AB[gb]C[At this point, all of black's groups are strong again and difficult to attack effectively.
+
+When we are faced with a situation where our groups are disconnected and weak, one of the best ways to strengthen them is to connect them to other groups.]
+;AE[eb][fb][gb][ec][fc][fd][hd][id][ke][cg][kg][ch][fj][fk]AW[dd][kd][ge][ie][ef][ff][ig][ii][ej][ij][ek]AB[dc][ce][dg][jg][jj][kj][gk][ik]C[The last and perhaps most important point is to have a plan and have fun.
+
+Here's a snippet from Saul and Stephanie's game that exemplifies that point.]
+;C[Stephanie played black and did much of what I talked about during the lecture about fuseki.
+
+Saul, on the other hand, planned from the beginning to do exactly the opposite.
+
+I really like seeing this happen in games.  The point of showing this is not so much to analyze the position (though if you're curious, I would say black has a huge lead) but rather to point out that playing the move that you want to play is perhaps more important.  Sometimes that move will line up with the "correct" move, sometimes it won't.]
+;AE[dc][gc][jc][cd][dd][ed][kd][ce][ge][ie][ef][ff][dg][ig][jg][ii][dj][ej][ij][jj][kj][ek][gk][ik]C[Next week we'll look at a few standard sequences in go.  We'll also talk about what standard sequences mean generally, when they are useful and when they are not.])
