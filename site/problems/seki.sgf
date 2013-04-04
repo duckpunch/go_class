@@ -1,0 +1,11 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+
+(;AW[ca][fa][cb][fb][cc][ec][fc][cd][ed][ce][de]AB[da][ga][db][gb][dc][gc][dd][gd][ee][fe])
+(;AW[cb][db][eb][fb][bc][gc][bd][dd][gd][be][de][ge][bf][df][gf][bg][cg][gg][dh][eh][fh]AB[cc][dc][ec][fc][cd][fd][ce][fe][cf][ff][dg][eg][fg])
+(;AW[da][fa][cb][db][eb][fb][ac][bc][cd][dd][be][dg]AB[ga][ab][bb][gb][cc][dc][ec][fc][gc])
+(;AW[ca][ga][cb][eb][gb][cc][ec][gc][cd][ed][gd][ce][ge][cf][df][gf][eg][fg][gg]AB[da][db][fb][dc][fc][dd][fd][de][fe][ef][ff])
+(;AW[ba][fa][ha][ab][bb][cb][eb][fb][gb][hb][dc][dd][ed][fd][gd][ff][gf]AB[ia][db][ib][ac][bc][cc][ec][fc][gc][hc][ic][cd][ce][dg])
+(;AW[da][ab][cb][db][bc][cc][ad][bd]AB[ba][ea][eb][dc][ec][cd][ae][be][ce])
+(;AW[ga][ab][bb][gb][bc][dc][ec][fc][gc][ad][bd][cd]AB[da][fa][cb][db][eb][fb][cc][dd][ae][be][ce][de])
+(;AW[dc][ec][fc][cd][dd][gd][ce][ge][cf][ff][gf][cg][dg][eg][fg]AB[db][eb][fb][hb][bc][cc][gc][bd][hd][be][he][bf][hf][bg][gg][hg][ch][dh][eh][fh]))
