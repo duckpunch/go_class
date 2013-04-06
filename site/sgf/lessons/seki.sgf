@@ -1,0 +1,70 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[So far, we've learned all the rules and various techniques with which to apply them.  Today, we'll learn about an interesting position called "seki".
+
+A good place to start would be the literal definition of the word.  "Seki" means "mutual life".]
+;AW[hp][ip][jp][hq][kq][hr][kr][hs][ks]AB[kp][lp][iq][jq][lq][ir][lr][is][ls]LB[jr:1][js:2]TR[iq][jq][kq][ir][kr][is][ks]C[Here is a basic "seki" position.  The question to ask is, what is the status of the marked stones?
+
+Notice that there are two shared liberties.]
+;LB[jj:A][jr:B][js:C]C[If it is black's turn, we'll notice that he has 3 choices.  "A" represents what we call "tenuki".  That is, playing away from the local fight.  Tenuki is always an option.
+
+Playing "B" or "C" is very similar.  Let's look at what happens if black plays "B".]
+;AB[js]C[Notice that black is down to one liberty and it is white's turn.  Locally, white can now kill black.]
+;AE[js]TR[jr][js]C[So going back, we see that neither shared liberty is worth filling here for both players.  When this happens, both players just leave the position alone.  At the end of the game, since neither white nor black is dead and no one surrounds the area, no points are awarded.]
+;AE[hp][ip][jp][kp][lp][hq][iq][jq][kq][lq][hr][ir][kr][lr][hs][is][ks][ls]C[Let's recap on what seki is.
+
+It is a position where neither player has two eyes, but they cannot fill the last liberties to execute the kill without dying themselves.
+
+With that in mind, let's look at two common types of seki.
+
+The first kind has to do with counting liberties.
+
+The second with internal shapes.]
+;AW[hp][ip][jp][hq][kq][hr][kr][hs][ks]AB[kp][lp][iq][jq][lq][ir][lr][is][ls]C[As we saw earlier, when there are shared liberties and no eyes, there is potential for seki.
+
+But what if both players have an eye?]
+;AE[hs][ls]AW[fq][gq][fr][lr][mr][fs][js][ms]AB[mq][nq][gr][hr][nr][gs][ns]C[In this case, we have a seki position where both sides have two remaining liberties.
+
+This time, however, only one liberty is shared.  The situation is very similar to the first one we looked at in that it's all about counting liberties.]
+;AE[hp][ip][jp][kp][lp][fq][gq][hq][iq][jq][kq][lq][mq][nq][fr][gr][hr][ir][kr][lr][mr][nr][fs][gs][is][js][ks][ms][ns]AW[da][fa][cb][db][eb][fb][ac][bc][cd][be][cg]AB[ga][ab][bb][gb][cc][dc][ec][fc][gc]TR[ab][bb]C[Let's look at a problem.
+
+Here, black is one move away from creating a seki.  If he does not, white will take the corner.
+
+Can you find the move?
+
+Try to save the triangle marked stones.]
+;CR[ba]AB[ba]TR[ca]C[This is the correct move.  Neither player can approach the triangle-marked shared liberty.]
+;AE[ba]LB[aa:A][ba:B][ca:C]C[Notice that "A" and "C" do not work.
+
+The difference is that "B" makes an eye.]
+;AE[da][fa][ga][ab][bb][cb][db][eb][fb][gb][ac][bc][cc][dc][ec][fc][gc][cd][be][cg]AW[hh][ih][jh][kh][lh][gi][mi][gj][mj][gk][mk][hl][il][jl][kl][ll]AB[hi][ii][ji][ki][li][hj][lj][hk][ik][jk][kk][lk]TR[jj]C[As mentioned, the second type of seki we're going to look at involves shapes.  First, let's review one of the common shapes.
+
+As we've talked about in past classes, the key point here is the marked spot.
+
+If black goes first, he can make two eyes.  If white goes first, he can kill.]
+;AE[lj]AW[mh][ni][nj][nk][ml]AB[mi][mj][mk]TR[jj][kj]C[Recall also that when there are 4 internal liberties, black is unconditionally alive since the two marked points are miai.]
+;AE[hj]AW[gh][fi][fj][ij][jj][kj][fk][gl]AB[gi][gj][gk]LB[jd:A][hj:B][lj:C]C[Consider this position.  What will happen if it is white's turn?
+
+Again, there are 3 options.
+
+Tenuki at "A" is always an option.  But what happens if white plays "B" or "C"?]
+;CR[lj]AW[lj]C[Since the position is symmetrical, it doesn't matter which one we look at.]
+;CR[hj]AE[ij][jj][kj][lj]AB[hj]TR[ij][jj][kj][lj]C[After black captures white, we see that black has made an unconditionally live shapes.]
+;CR[lj]AE[hj]AW[ij][jj][kj]AB[lj]C[What if black plays first?  Again, tenuki is an option.  Locally, they're both the same.]
+;LB[jd:A][hj:B]C[At this point, we can see that black is dead.
+
+What should white do next if "A" represents tenuki?]
+;AE[ij][kj]AW[jd]AB[hj]LB[jd:1][hj:2][jj:3]C[White should just tenuki since there is nothing black can do to survive.]
+;AE[jd][hj][lj]AW[ij][kj]C[Let's go back to the starting position.
+
+We see that the best move for both players is to tenuki.
+
+If white plays first and plays internally, black makes a live shape.
+
+If black plays first and plays locally, black will be dead and white doesn't even need to answer]
+;AE[gh][hh][ih][jh][kh][lh][mh][fi][ni][fj][nj][fk][nk][gl][hl][il][jl][kl][ll][ml]AW[eg][fg][gg][hg][ig][jg][kg][lg][mg][ng][og][eh][oh][ei][oi][ej][oj][ek][ok][el][ol][em][fm][gm][hm][im][jm][km][lm][mm][nm][om]TR[fh][gh][hh][ih][jh][kh][lh][mh][nh][fi][ni][fj][nj][fk][nk][fl][gl][hl][il][jl][kl][ll][ml][nl]C[Notice that this similar position is also seki.
+
+The idea here is that black doesn't have enough room to make another eye.]
+;AE[eg][fg][gg][hg][ig][jg][kg][lg][mg][ng][og][eh][oh][ei][gi][hi][ii][ji][ki][li][mi][oi][ej][gj][ij][jj][kj][mj][oj][ek][gk][hk][ik][jk][kk][lk][mk][ok][el][ol][em][fm][gm][hm][im][jm][km][lm][mm][nm][om]C[That's it for this week.
+
+There are some practice problems listed under the problem section on the home page :)])
