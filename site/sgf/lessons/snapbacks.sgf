@@ -1,0 +1,52 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[Today, we continue to look at ways to apply rules we've already learned.
+
+We'll be looking at what are called "snapbacks".
+
+The basic premise is to capture some stones by reducing your opponents liberties via sacrifice.]
+;AW[jj][kj][hk][ik][jl]AB[ji][ki][ij][lj][lk][kl]TR[jj][kj]C[This is a basic snapback position.
+
+The marked stones can be captured by black.
+
+Can you see how?]
+;TR[jk][kk]C[Notice there are two liberties for the white stones.  The key to capturing them will be to pick the right first move.]
+;AW[jk]AB[kk]LB[jk:2][kk:1]C[If we pick the wrong one, we will just be forcing our opponent to connect.
+
+Let's see what happens in the correct sequence.]
+;CR[jk]AE[kk]AB[jk]C[Here, black reduces the white group down to 1 liberty.  To do so, black has put himself in atari.]
+;CR[kk]AE[jk]AW[kk]C[If white decides to kill black's stone, notice that white still just has one liberty.]
+;CR[jk]AE[jj][kj][kk]AB[jk]C[With black's next move, he can kill white.]
+;AE[hk][ik][lk][jl][kl]AW[ki][lj][kk]AB[kj]C[One thing to note about snapbacks is that it is not the same as a ko.
+
+Recall that when we talk about ko, we are talking about trading a single stone each time.  With a snapback, we are typically trading a few stones for much more.]
+;AE[lj]AW[gi][hi][ji][li][mi][fj][hj][ij][mj][fk][gk][hk][jk][lk][mk]AB[ih][jh][kh][lh][mh][nh][ii][ni][nj][ik][nk][il][jl][kl][ll][ml][nl]C[Let's look at a few more examples of snapbacks.
+
+Here it looks almost as if white has two eyes.  However, black can kill white in a snapback.
+
+Can you find the right sequence?]
+;CR[jj]AB[jj]TR[ji][ki][li][mi][mj][jk][kk][lk][mk]C[Black's first move is to reduce white's group down to one liberty.]
+;AE[kj]AW[lj]LB[jj:2][lj:1]C[If white kills the black stones, black throws right back in.]
+;CR[kj]AE[jj]AW[kj]C[If white captures the throw-in, white is left with one liberty.]
+;CR[jj]AE[ji][ki][li][mi][kj][lj][mj][jk][kk][lk][mk]AB[jj]C[And black can capture on the next turn.]
+;AE[ih][jh][kh][lh][mh][nh][gi][hi][ii][ni][fj][hj][ij][jj][nj][fk][gk][hk][ik][nk][il][jl][kl][ll][ml][nl]AW[jq][kq][lq][gr][hr][ir][lr][js][ks][ls]AB[ip][jp][kp][lp][mp][fq][gq][hq][mq][fr][jr][mr][gs][is][ms]C[Here's another example.
+
+Can black kill the white group?]
+;LB[jj:A][iq:D][fs:B][hs:C]C[Let's look at the candidate moves.
+
+"A" represents tenuki and will represent the correct answer if we believe white is already alive.
+
+First, convince yourself that outside the "B", "C" and "D", there are no other local options that are worthwhile.]
+;AE[jr][is]AW[kr][hs]AB[iq][fs]LB[iq:3][kr:4][fs:1][hs:2]C[If we choose "B" first, we see that white lives.]
+;CR[hs]AE[iq][kr][fs]AB[jr][hs][is]C[What about "C"?]
+;AE[hs][is]AW[fs]LB[fs:1][gs:2]C[White's next move is to capture.
+
+Notice that black cannot make that eye false.]
+;AE[jr][gs]AW[kr][hs]AB[iq]LB[iq:2][kr:3][hs:1]TR[jr][is]C[The following sequence gives white 2 eyes so we can cross "C" off the list.]
+;AE[iq][kr][fs][hs]AB[jr][gs][is]LB[jj:A][iq:D][fs:B][hs:C]C[The last move to try is "D".]
+;CR[iq]AB[iq]LB[kr:F][hs:E]C[Here, there are two possible white responses, "E" and "F"]
+;CR[hs]AE[is]AW[hs]TR[is]C[If white plays "E", one of his groups is left with one liberty and black will be able to kill the group.]
+;CR[kr]AE[jr][hs]AW[kr]AB[is]TR[jr]C[If white plays "F", he will be in a similar predicament with his other group.]
+;AE[kr]AB[jr]C[So in this position, we are looking at a double snapback.
+
+We'll come to a stop here, now that your mind is blown.])

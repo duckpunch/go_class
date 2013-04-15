@@ -1,0 +1,179 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[13]KM[0.00]
+PW[Richard, Trinh]PB[Craig, Anthony]C[Interesting game throughout.  Understanding that this was a pair game, the key takeaway is to try to figure out what your teammate's plan is.  For example, when black was building the big framework, it would have been good to finish it.
+
+There was also that complicated situation in the upper left.  I tried to add some analysis to it without getting too verbose.  Let me know if you have any questions about it.]
+;B[dj]
+;W[kd]
+;B[jj]
+;W[dd]
+;B[kg]
+;W[ei]TR[gd][ch]C[First strange move.  The normal things to do here might be to play on the side or approach the corner, as marked.]
+;B[id]
+;W[ic]
+;B[hc]
+(;W[hb]C[This is a very low move in the opening.  Try to stay away from making second line moves in the opening since they typically aren't worth very much.
+
+|Here is an alternative variation for white;1;10|
+
+|Here is what black can do;0,1;11|]
+(;B[ej]C[Big move.]
+;W[di]
+;B[gb]
+;W[ib]
+;B[gc]
+;W[dg]
+;B[jd]
+;W[jc]
+;B[gg]LB[ke:B][fi:A]C[Black builds a huge framework and threatens to take the center.  Nice plan.
+
+That said, look out for where you might be reduced before making such a move.  It might still be ok to make the move, but the timing has to be right for it to be effective.
+
+In this case, I would treat the white reduction moves in "A" and "B" as miai.  That is, if white takes one of those, black should take the other.  In this case, if white ignores both, black should take both :)]
+;W[cj]C[White emphasizes the corner.  This is ok as well, just be aware that if black manages to actually turn the center into territory, it will be a very difficult game for white.]
+;B[ke]C[Awesome move.]
+;W[ld]
+;B[ck]
+;W[bj]
+(;B[le]C[This is a small move.
+
+|See variation;0,0,1;25|]
+;W[ii]
+;B[ij]
+;W[gj]C[Good sequence for white to break through black's framework.]
+;B[hi]
+;W[hj]
+;B[bk]
+;W[fj]
+;B[ih]
+;W[dk]C[Better to just capture this white stone.
+
+|See variation;0,0,0,1;35|]
+(;B[dl]
+;W[ek]
+;B[hk]
+;W[hf]
+;B[gf]
+;W[eb]
+;B[if]TR[ef][gl]C[This move is overly defensive.
+
+Alternatives are marked.]
+;W[me]
+;B[gl]CR[gl]TR[me]C[The marked move is usually a sente move (i.e. it needs to be responded to, or else there will be big consequences.  That said, black's move is quite big as well since it threatens to revive the dead corner black group.]
+;W[fd]LB[mg:A][el:B]C[And white ignores them both :)
+
+Alternatives are marked.
+
+"A" drastically reduces blacks terrtitory while "B" kills off the corner black group.]
+;B[ge]C[Black's move is similarly small.  Alternatives are the same.]
+;W[gd]
+;B[hd]
+;W[ff]LB[mf:A][el:B]C[This is also a small move for white.  "A" and "B" are still calling out to be played...]
+;B[ee]C[Overplay.]
+;W[fe]
+;B[ef]
+;W[fg]
+;B[ed]
+;W[fc]
+;B[ec]
+;W[dc]
+;B[fb]
+;W[db]
+;B[eg]
+;W[fh]
+;B[df]
+;W[cf]
+;B[cg]
+;W[dh]
+;B[ce]
+;W[bf]
+;B[de]
+;W[bd]
+;B[ch]
+;W[be]
+;B[mf]C[One down horray!]
+;W[md]TR[lf]C[Black needs to be aware of the cut point that was just created here.]
+;B[ea]
+;W[da]
+;B[ha]
+;W[fa]
+;B[ga]
+;W[el]C[Another big point for white.  In this case however, it's now the top right corner that needs help.  At this point, black should immediately attack the upper right.
+
+|See variation;0,0,0,0,1;79|]
+(;B[em]
+;W[fm]
+;B[fl]
+;W[dm]
+;B[cl]
+;W[em]C[Unnecessary move.  White was not in atari and the bottom left black group was already dead.  Better to defend top right.]
+;B[ia]C[The best response I could come up with here ends in an unfavorable ko for white.  With that said, I think white can still win the game in that variation.
+
+|See variation;0,0,0,0,0,1;86|]
+(;W[kc]C[Black can now kill white.
+
+|See variation;0,0,0,0,0,0,1;87|]
+(;B[jb]C[The best I could come up with here was a ko that was more favorable to white.  White should be able to make this group live in ko.
+
+|Show variation;0,0,0,0,0,0,0,1;88|]
+(;W[ja]
+;B[ka]
+;W[kb]
+;B[lb]
+;W[ja]
+;B[la]C[White should just play ko.
+
+|See variation;0,0,0,0,0,0,0,0,1;94|]
+(;W[lf]
+;B[lg]
+;W[mg]
+;B[mh]
+;W[je]
+;B[kf]
+;W[mf]
+;B[lh])
+(;W[mb]
+;B[jb]TR[kk]C[White's big threat is living in the bottom right.]))
+(;W[kb]
+;B[ja]
+;W[lb]
+;B[la]
+;W[ka]
+;B[mb]
+;W[ma]TR[je][lf]C[Here, white gets to take ko first.  There are also many local threats for white to use and not many for black.]))
+(;B[ja]C[The simple move kills here.]))
+(;W[kb]
+;B[lb]
+;W[ja]
+;B[lc]
+;W[kc]
+;B[la]
+;W[mb]
+;B[ka]
+;W[mc]
+;B[jb]C[White doesn't have a ko threat big enough.  However, to win the game, white doesn't need one that big.]
+;W[kk]C[Living in the corner here will be enough compensation for losing the top right group.]
+;B[ma]
+;W[li]))
+(;B[kb]C[This move kills black.]
+;W[kc]
+;B[lb]
+;W[ia]
+;B[lf]
+;W[ka]
+;B[jb]
+;W[mb]
+;B[la]LB[ja:A][lc:B]C[Miai to kill.]))
+(;B[ek]
+;W[dl]
+;B[el]
+;W[cl]
+;B[bl]C[White stones captured.]))
+(;B[fj]
+;W[fi]
+;B[gi]TR[id][jd][ke][gg][kg][gi][ej][jj][ck]C[Black has a huge framework and can still reduce white.  Black is clearly in the lead.]))
+(;B[hd]C[Black can just play normally here.]
+;W[jc]C[White now needs to defend against being cut.]
+;B[ch]LB[hb:B][ch:A]C[Black takes a big point.  Notice that the only thing different in this variation compared to the "correct" variation is that the "A" for "B" trade occured.  In this case, notice that "A" is a much larger move.]))
+(;W[jc]C[Emphasize the corner]
+;B[hd]C[Black protects his cut point]))

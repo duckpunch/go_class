@@ -1,0 +1,84 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Geoff]PB[Richard]C[There were some small moves here and there, but overall the games are looking better!
+
+White had a pretty decent start, but had a misstep which costed the game.
+
+I think part of the lapse in focus may have been due to white having to record the game.  That said, try to internalize the difference between the small moves that were played and the possible big moves that weren't.]
+;B[cg]
+;W[gc]
+;B[cc]
+;W[fg]
+;B[ec]
+(;W[fb]C[This is the first move that is small.
+
+|See variation;1;6|]
+(;B[eh]C[This move is also very small.
+
+|See variation;0,1;7|]
+;W[de]C[Good move.  The idea is to split black or press black down.  I like it.]
+;B[gg]C[This is an interesting move, but it's perhaps ill-timed.  You are forcing white to split you and you might end up with 3 groups on the board.  This means less efficiency which may end in pain.]
+;W[fh]C[Good to split.]
+;B[eg]
+(;W[ef]C[White made a mistake here.  It would have been better to extend once more.
+
+|See variation;0,0,1;12|]
+;B[ff]
+;W[gf]
+;B[fe]
+;W[ge]
+;B[gh]
+;W[fd]
+;B[fi]TR[cc][ec]C[White's best chance at this point will be to separate the two marked stones.
+
+|See variation;0,0,0,1;20|]
+(;W[ee]
+;B[fg]
+;W[fc]
+;B[eb]
+;W[cd]
+;B[bd]CR[bd]C[Big move for black since it is a critical point for the life of both players.]
+;W[hg]
+;B[ce]
+;W[dd]
+;B[ed]C[Big cut.]
+;W[hh]
+;B[hi]
+;W[cf]
+;B[be]
+;W[bf]
+;B[dc]
+;W[df]
+;B[bc]
+;W[dg]
+;B[dh]
+;W[ch]
+;B[bg])
+(;W[bd]TR[ec][fe]C[Notice that black cannot connect his stones.]
+;B[ed]
+;W[ee]
+;B[fg]
+;W[bc]))
+(;W[ff]TR[gg]C[The marked black stone in trouble.  Disconnecting white is still tough.]
+;B[ef]
+;W[ee]
+;B[fe]
+;W[fd]
+;B[ge]
+;W[gf]
+;B[he]
+;W[hf]TR[fe][ge][he]C[White is still ok since the marked stones cant live.]
+;B[hc]
+;W[hd]
+;B[id]
+;W[gd]
+;B[ie]
+;W[hb]))
+(;B[fe]
+;W[ge]
+;B[ff]
+;W[gf]
+;B[eg]C[And all this without being violent :)]))
+(;W[fe]
+;B[fb]C[If black takes that move, you can take an even larger point.]
+;W[ce]))
