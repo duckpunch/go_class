@@ -1,3 +1,76 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[9]KM[0.00]
-AW[bb][cb][db][eb][ec][ed][ee][fe][ge][ef][eg][eh]AB[ea][fa][fb][fc][bd][dd][fd][gd][be][de][df][dg][dh])
+C[Go is usually split up into 3 phases.  Fuseki, chuuban, and yose.  They mean "the opening", "the middlegame", and "the endgame", respectively.
+
+This lesson is about the end game.]
+;AW[eb][ec][dd][ed][de][df][dg][dh][di][fi][gi][hi]AB[fb][fc][fd][ee][ef][eg][eh][fh][gh][hh][ih][ii]C[To begin, let's look at this very contrived endgame position.
+
+The first question to ask is, in general, what order should moves be played in the endgame?]
+;C[A very logical way to answer that question would be, play the largest move.
+
+In order to do so, we'll first need to know how to value moves.]
+;C[Let's figure out how many points are on the upper side.]
+;CR[ea]AB[ea]C[If it is blacks turn, he would play here, reducing white by 1.]
+;CR[fa]AE[ea]AW[fa]C[If it were white's turn, he would play here, reducing black by 1 point.]
+;AE[fa]TR[ea][fa]C[For the time being, we could call playing in this area a 2 point move since that would be how many points would swing.]
+;C[Let's evaluate the bottom.]
+;CR[ei]AE[fi][gi][hi]AB[ei]C[If black plays first, he captures 3 stones and gets 3 points of territory for a total of 6 points gained.]
+;CR[ei]AW[ei][fi][gi][hi]C[If white plays first, he protects the 3 stones from being captured.]
+;AE[ei]C[The value of the bottom could be counted as 6 points.]
+;LB[ea:A][ei:B]C[So with that in mind, the practical question here is: assuming there is no komi and it is black's move, where should he play?
+
+With the theory we've been building on the previous slides we should play at "B".]
+;AE[fi][gi][hi]AW[ea][fa]AB[ga][gb][ei]LB[ea:4][fa:2][ga:3][gb:5][ei:1]C[If the game plays out like this, white wins by 2 points!]
+;AE[ea][fa][ga][gb][ei]AW[fi][gi][hi]C[Let's look at the other variation to see if black had a chance.]
+;AE[fi][gi][hi]AW[da][db]AB[ea][fa][ei]LB[da:2][ea:1][fa:3][db:4][ei:5]C[In this case, black wins by 2!
+
+So what was the difference?]
+;AE[da][ea][fa][db][ei]AW[fi][gi][hi]C[The key is that when we were looking at the board, we did not consider that, after playing a move, the board position changes.  That is, our evaluation of the biggest move on the board for ourselves may have been correct but after playing a move, the board has changed for our opponent.]
+;CR[ea]AB[ea]C[When black plays this move, how will white evaluate the value of this area?]
+;CR[da]AW[da]TR[db]C[Well, if white were to get a move here, it would look like this.  White would eventually have to fill the marked point.  Let's call this position 0 points for white.]
+;AE[da]C[What happens if black gets another move?]
+;CR[ca]AB[ca]C[Black could followup with something like this.]
+;AW[ab][bb][db][bc][cc]AB[ba][da][fa][cb]LB[ba:6][da:2][fa:8][ab:7][bb:3][cb:4][db:1][bc:9][cc:5]C[White's best defense looks something like this.]
+;TR[da][db]C[The two points from the earlier white variation are marked.
+
+So how many points did white lose?]
+;TR[aa][ba][ca][ab][bb][cb][bc][cc]C[White lost 8 points here.]
+;CR[ea]AE[ba][ca][da][fa][ab][bb][cb][db][bc][cc]C[In other words, when black plays this move and it is white's turn to evaluate, he'll see that the top side is worth far more than the 6 points at the bottom.
+
+We can revise our calculation of the "biggest move" to mean, the number of points on the board plus the size of the followup.
+
+Here, we can see for black that the top move is worth 2 points with an 8 point followup while the bottom is worth 6 points with 0 points of followup.
+
+When evaluating endgame moves, you should always consider how big your followup is.]
+;AE[ea]C[Another topic in endgame which is very important is sente and gote.
+
+I've intentionally skipped this part in order to explain basic valuing of moves, but the idea is central to an effective endgame.
+
+In a nutshell, a sente move is a move which keeps the initiative.  Using the vocabulary we've developed so far, it is playing a move with a big enough followup for the entire sequence such that your opponent has to respond each time.]
+;AW[da][db]AB[ea][fa]LB[da:2][ea:1][fa:3][db:4]C[Notice that after this sequence, it is still black's turn to move.
+
+We call move 1 sente.]
+;AE[da][ea][fa][db][fi][gi][hi]AB[ei]LB[ei:1]C[However here, black 1 is gote since white does not need to respond.]
+;AE[eb][fb][ec][fc][ed][fd][ee][ef][eg][fh][gh][hh][ih][di][ei][ii]AW[da][db][dc][eh]AB[ca][cb][cc][cd][ce][cf][cg][ch][dh]C[Let's look at a few common endgame positions now.
+
+If it is black's turn, he has a few tricks up his sleeve if white is not paying attention.]
+;CR[ei]AB[ei]C[The first move is here.]
+;AW[fi]TR[fh]C[If white blocks here, black can cut.]
+;AE[ei]AW[di]AB[eg][fh]LB[eg:3][fh:1][di:2]C[Black creates a very favorable ko.]
+;AE[eg]AW[fh][gh][gi]AB[di][ei][fi]LB[fh:1][gh:5][di:4][fi:2][gi:3]C[In order to avoid this, white should play like so.]
+;AE[dh][eh][fh][gh][di][ei][fi][gi]TR[dh][eh][di][ei][fi]C[Let's look at another position.
+
+Here, there are many possible moves for black.  In different situations, they all might be valid.  Today, we'll look at one of those moves.]
+;CR[fi]AB[fi]TR[ch]C[This move is called the monkey jump.  I'm not sure what monkeys have to do with this.
+
+The reason for singling out this one over the others is that it is the furthest you can go from the triangle marked black stone.]
+;CR[gh]AW[gh]C[White's defense might look something like this.]
+;AW[hi]AB[gi]LB[gi:1][hi:2]TR[hh]C[Here are the next moves.
+
+White 2 is possible because black cannot cut without being disconnected.]
+;AW[ff][dh][fh][di]AB[eg][eh][hh][ei]LB[ff:7][dh:6][eh:5][fh:2][hh:1][di:4][ei:3]C[Black is disconnected.]
+;AE[ff][eg][dh][eh][fh][di]AW[hh]LB[hh:2][ei:1]C[So black pulls back and white protects.]
+;C[There are other defenses to the monkey jump possible, but the most important thing is to try to read it out if you encounter it in a game.]
+;AE[ca][da][cb][db][cc][dc][cd][dd][ce][de][cf][df][cg][dg][ch][gh][hh][ei][fi][gi][hi]C[That's it for now!
+
+Next week we'll look at the game of go (yep, I haven't finished planning...)])
