@@ -1,0 +1,172 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[6.50]
+PW[Yueh-Lin]PB[Charles]C[Charles and Yueh-Lin had just learned the rules of go before playing this game.  Black emphasizes connectivity with solid play while White plays a speedy, development-oriented style.  Finding the right balance between speed and safety is an important skill.
+
+I'm impressed with how well you both did in your very first game, especially considering that you'd learned the rules only about 30 minutes before this game.
+
+The main thing to work on is atari-awareness.  In a battle like this, where there is a lot of stuff happening, it can be useful to pause and check how many liberties each group has.
+]
+;B[gc]
+;W[cg]
+;B[fc]
+;W[ef]
+;B[fd]
+;W[fe]C[Black has deployed his forces in the upper right while White has staked claim across the bottom.  White has decided to challenge Black's strength.
+
+Since Black is so strong in the upper right, Black can decide to play elsewhere rather than answering directly.  Black could consider a play in the upper left, which is still open, or possibly try to invade the lower right behind White's line.]
+;B[ee]
+;W[ed]
+;B[de]
+;W[hc]
+;B[dd]
+;W[ec]
+;B[gd]LB[eb:A]TR[hc][fe]C[This move, which aims to separate the TRIANGLE white stones, shows good thinking in the abstract sense.  However, in this specific position, the TRIANGLE white stones cannot connect in a single move, so Black doesn't need to play this.
+
+The two White stones that have invaded behind Black's line can be captured in a ladder by playing at "A".  Later, Black can comeback to attack these two White stones.]
+;W[hd]C[White realizes the importance of staying connected and makes a move to connect up.  That's the right idea.]
+(;B[dc]LB[eb:B][ge:A]TR[fe]C[If Black wants to keep White separated, then Black should play the atari at "A" now.  If Black gets to capture the TRIANGLE stone, then Black's two groups will be connected.  Otherwise, if White defends against the atari at "A", Black can then return and capture the two stones with the ladder at "B".
+
+Charles, I saw you considering this move.  At first you were going to play the ladder, and at the last second you changed your mind.  Since this was your first class, you didn't have the benefit of the "Capturing Techniques" lesson from the week before, so I've included a |variation;1;15| to explain the ladder.
+
+]
+;W[eb]
+;B[ff]C[Trying to connect by capturing the stones that separate the Black groups is the right idea, but playing atari from the other side works better in this case.
+
+The problem with playing atari from this side is that when White answers by drawing out, it removes a liberty from Black's four stones on the right, which makes it easier for White to counterattack against those stones.]
+;W[ge]
+;B[gb]C[Good reading.
+
+Black realizes that if White gets to play here, it will capture the Black stones.  White still has the advantage in this capturing race because the Black group has 3 liberties and the 3 White stones at the top also have 3 liberties, but it is White's turn to move.  White can capture the Black stones if White deprives them of liberties.]
+(;W[ga]C[Removing a liberty is the right idea, but is better to stay connected while doing so.  I've included a variation to show one of the more straight forward methods of capturing the Black group.
+
+|See variation;0,1;20|]
+;B[fa]
+;W[db]
+;B[hb]
+;W[ea]
+;B[cb]
+;W[fb]
+;B[ca]
+;W[ib]C[Nice.
+
+The Black group has been reduced to 1 liberty, but it cannot increase its liberties beyond one by drawing out.  So, the Black group is captured.  This is very similar to the end of a ladder.]
+;B[ha]C[Black is still in atari.]
+;W[gf]LB[ia:A]C[So close!
+
+If White had played at "A", then White would capture the Black group.  This is where developing atari awareness could help you recognize when groups are captured.
+
+Yueh-Lin, we talked about this during the game and you realized that you could have made the capture almost instantly.  It's great for me as an instructor to see you learning and applying the concepts we've discussed so quickly.  In this instance, when there are big fights going on, it may be useful for you to pause and check for atari before deciding your next move.  Keep practicing and it will become second nature very soon!]
+;B[fa]
+;W[fg]
+;B[da]
+;W[fb]
+;B[eb]
+;W[cc]
+;B[fh]
+;W[ff]C[At this stage in the game, White has lost a large group and Black is very solid.  It may seem like Black is ahead because of the capture, but actually White is still leading by about 10 points (remember that komi is 6.5!).
+
+Black's strategy at the beginning emphasized safety, and White's strategy emphasized speed.  So, despite losing the large group at the top, White still has enough territory sketched out to win this game.  The key is for White to recognize this and continue solidifying territory - the last open area is on the left of the board.
+
+Black has the right idea to invade, because Black must do something to upset the balance or White will win.  For White's part, White should either attack the invading stone directly or play in the most open area.]
+;B[gh]
+;W[eg]
+;B[gg]
+;W[eh]C[Good.
+
+White is starting to isolate Black's invading group, which will make it easier to attack.]
+;B[dg]
+;W[df]
+;B[dh]
+;W[cf]
+;B[hg]
+;W[ch]
+;B[ci]
+;W[di]
+;B[ei]
+;W[fi]
+;B[hf]
+(;W[ce]TR[he]C[White has an opportunity here to capture the invading stones.
+
+We haven't studied shape yet, so it would be very difficult to recognize how to make the capture.  However the key move aligns with the principle of staying connected.  Black is threatening to separate White at the TRIANGLE spot, so White should play there first.
+
+For those who are curious, I've included a variation to show how White might capture the Black stones.
+
+|See variation;0,0,1;54|]
+;B[cd]
+;W[bi]
+;B[bc]
+;W[hh]
+;B[if]
+;W[ie]
+;B[id]LB[he:A]C[White still has a chance to capture the Black stones in the lower right and save the White stones in the upper right by connecting at "A".]
+;W[gi]
+;B[ih]C[Both sides agreed to end the game because we were running out of time.
+
+Well played by both of you.  The game swung back and forth quite a bit.  In the end, the game was within 0.5 points!  Very close!
+
+The following sequence is how I would have played the endgame from either side.  The sequence I showed you in person was wrong because somehow we thought it was Black to move, which would have given Black two moves in a row.
+
+After resolving the group in the lower right, the key point for this endgame is at the border between the two groups on the left side, since the left side is still unfinished.
+]
+;W[he]
+;B[hi]
+;W[be]C[This is the key point, and it is the largest available play for either side.]
+;B[ei]
+;W[bd]
+;B[ad]
+;W[ae]
+;B[ac]
+;W[fi]
+;B[gi]
+;W[ei]
+;B[ia]
+;W[ic]
+;B[]
+;W[]TW[id][af][bf][ag][bg][dg][ah][bh][dh][ai][ci]TB[aa][ba][ea][ga][ab][bb][db][fb][cc][ec][ed][ig][hh][ii]C[Nicely played.  Black wins by 0.5 points.
+
+White opened quickly as Black played solidly.  Black made the large capture in the top, but White's previous speed still gave White an edge.  Black fought back by invading the lower right, and in the end came away with a very close win.])
+(;W[he]LB[ih:B][gi:A]C[Black might respond at "A" or "B" to try to make two eyes.
+
+|Variation A;0,0,1;55|
+
+|Variation B;0,0,1,1;55|]
+(;B[gi]
+;W[ih]
+;B[ei]
+;W[bi]TR[ig][hh][ih][hi][ii]C[The Black stones in the lower right cannot live.
+
+The TRIANGLE points show that this is a bulky five shape, which we will learn about in our next lesson.  The White stone is on the vital point.])
+(;B[ih]
+;W[hi]
+;B[gi]
+;W[if]
+;B[ei]
+;W[bi]TR[hh][hi][ii]C[Again, the Black stones cannot survive.
+
+This time the shape has been reduced to a bent three (shown by TRIANGLE), and the white stone is on the vital point.])))
+(;W[hb]C[This move drives the Black group toward the edge.]
+;B[ga]LB[fa:2][ha:1][fb:3]C[Notice that this is the only move that increases Black's liberties from 2 to 3.]
+;W[ha]C[Now Black cannot increase the group's liberties beyond the 2 that it currently has, and the three central White stones still have 3 liberties.]
+;B[db]
+;W[fb]
+;B[ea]
+;W[fa]))
+(;B[eb]LB[eb:1][dc:2]C[This move starts the ladder.
+
+Notice how White's group of two stones had the two marked liberties ("1" and "2") and Black plays at the head of those two stones to take one liberty away and put White into atari.
+
+It is important to play at the "head" of the two stones because it forces the opposing group to turn as it draws out of atari.  The turn contacts an enemy stone, which deprives the White group of one of its potential liberties.  So, instead of getting three liberties by drawing out, White only gets two liberties, and Black can repeat the pattern.]
+;W[dc]LB[db:1][cc:2][dd:3]C[If Black's stone weren't already on the board, then this White move would give the White group 3 liberties.
+
+By playing at the "head" of the group, Black forces White to turn across Black's other stones.  White can only get a maximum of 2 liberties with each move, so Black will keep playing atari until Black has driven the White group into the edge where Black will make the capture.]
+;B[cc]TR[eb]C[Atari.  The pattern continues.  White can only draw out by turning across Black's TRIANGLE stone.]
+;W[db]
+;B[da]
+;W[cb]TR[cc]
+;B[bb]LB[ca:1]C[Now we have reached the edge of the board.
+
+At this point, the White group cannot increase its liberties by drawing out.  The edge of the board serves to take away what would have been the second liberty.  In this situation, the White group has 1 liberty so it is in atari, but...]
+;W[ca]LB[ba:1]C[After drawing out, the white group still only has 1 liberty so it is still in atari.
+
+The second liberty would have been above the marked stone, but since we're at the edge of the board the liberty does not exist.]
+;B[ba]))

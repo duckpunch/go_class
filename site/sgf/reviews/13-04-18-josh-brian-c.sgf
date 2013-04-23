@@ -1,0 +1,91 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[6.50]
+PW[Josh]PB[Brian C]C[This game features an interesting fight as Black goes for territory on the outside while White aims to split the Black forces and attack.
+
+At one point (|move 24;0;24|), White allows Black to connect his stones and the advantage passes to Black in the ensuing battle.  Afterward, we discussed the importance of staying connected as a source of strength.
+
+Good ideas on both sides.  Practice visualizing the stones before playing them.  When you can't see far enough ahead, ask yourself what you're trying to accomplish and choose the move that seems to be closest to serving that purpose.]
+;B[cg]
+;W[ff]
+;B[fd]
+;W[dd]
+;B[ce]
+;W[ee]C[White has split Black into two general groups while staying more or less connected.
+
+It looks like the lower left is becoming Black territory while the lower right is becoming White territory.  Both sides can fight in the upper left, and depending on how play continues, White may be able to attack Black in the upper right.]
+;B[fe]
+;W[fc]LB[fe:A][ef:B]TR[gf]C[Black begins to strengthen his group in the upper right and White looks for ways to continue the attack.
+
+Notice that Black's move is threatening to separate the White group by playing at "B" in the future.
+
+The move played takes away liberties from the Black group, but in turn the Black group can counterattack against this stone.  One idea for maintaining a fighting force while also claiming territory would be to play at TRIANGLE instead.]
+;B[gc]
+;W[gd]
+;B[ec]
+;W[ed]
+;B[fb]
+;W[ge]
+;B[fc]
+;W[df]LB[cf:B][ef:A]C[Black successfully captures the White stone that was played near the top.  In return, White has strengthened his stones in the lower right.
+
+This move defends against Black's separating move at "A" and also threatens to separate the two Black stones by pushing through at "B".  This is a multi-purpose move because it both defends and attacks.  Nicely played.]
+;B[hd]C[Black stays consistent with the plan of taking territory along the edge.]
+;W[he]
+;B[gf]
+;W[hf]C[The idea of cutting and moving into White's territory is good.  In this case, Black's threat would have more strength if Black first defended the upper right at "A".  Then, Black could either cut or reduce White along the edge.]
+;B[gg]
+;W[hc]C[Now the White stones on the right are alive.  So, White may have the chance to counterattack the invading Black stones.]
+;B[fg]
+;W[eg]TR[ff]C[The TRIANGLE stone is the only thing that is preventing Black from connecting his invading stones to the large Black group at the top.
+
+Notice how after Black captures this stone, Black is able to make threats against the White stones on the left while White has difficulty making counter threats.]
+;B[ef]
+;W[hg]LB[cf:A]C[The Black stones are connected (termporarily) in this ko situation.  The White stones at the right are already alive, but if the White stones on the left are divided, they will become increasingly weak.
+
+In these situations, look for a threat that your opponent must answer, which will give you an opportunity to take back the ko.  In this case, I think the best threat would be trying to attack the two Black stones on the left by pushing through at "A".]
+;B[ff]C[Black is connected and very strong now.]
+;W[fh]C[Good idea to try to connect up.  This is a situation where reading ahead will help.  Black successfully keeps White separated.]
+;B[gh]
+;W[eh]
+;B[hh]LB[de:A][dg:B]C[The White groups have already been separated, so now may be the time to consider separating two different White groups by pushing in at "A" or "B".
+]
+;W[ig]
+;B[dg]C[Good.
+
+Notice how dividing the stones from friendly forces makes it easier to attack them.]
+;W[dh]
+;B[ch]
+;W[ci]
+;B[fi]
+;W[dc]C[Good reading by White.
+
+The White stones cannot be saved, so White turns his attention to the last and largest open area on the board: the upper left.]
+;B[gi]
+;W[cd]
+;B[cf]
+;W[bd]
+;B[be]
+;W[db]
+;B[ad]
+;W[bb]
+;B[ih]
+;W[bc]
+;B[hb]
+;W[ic]
+;B[ib]
+;W[id]
+;B[bi]
+;W[cb]
+;B[de]
+;W[aa]
+;B[ea]
+;W[ca]
+;B[ac]
+;W[ab]
+;B[ae]
+;W[eb]
+;B[fa]
+;W[]
+;B[]TW[ba][cc][hd][ie][if]TB[ga][ha][ia][gb][af][bf][df][ag][bg][eg][ah][bh][dh][eh][fh][ai][ci][di][ei][hi][ii]C[A good game with a good fight.  The key mistake was when White allowed Black to link up.
+
+Black showed an adventuresome spirit in invading the White stronghold in the lower right, and White demonstrated good, flexibile thinking by cutting his losses at the bottom and shifting attention to the upper left.])

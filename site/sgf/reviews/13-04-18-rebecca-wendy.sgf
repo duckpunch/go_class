@@ -1,0 +1,149 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[6.50]
+PW[Rebecca]PB[Wendy]C[Nice game with some good ideas.
+
+Wendy, this is a great first game and you showed some surprising resourcefulness.
+
+Rebecca, good play.  You demonstrated an excellent sense of balance and good composure in a potentially tricky battle on the right side.
+
+Reviewing some of the capturing techniques from lesson two will help you both spot opportunities to use them more easlly.
+]
+;B[cg]
+;W[gc]
+;B[bg]
+;W[dc]
+;B[dg]
+;W[ge]
+;B[df]
+;W[gg]C[White has sketched out a territory encompasing roughly three-quarters of the board.  Black is very strong in the lower left, but must do something to balance the territory soon.]
+;B[de]LB[bc:A][fh:B]C[This move is very solid, but it has the drawback of being a little slow.  White has played rapid moves, so Black needs to play to catch up.
+
+Since Black is already extremely solid in the lower left, Black should take the opportunity to make a fast move around "A" or "B" and try to claim more territory.]
+;W[ec]
+;B[dd]
+;W[cc]
+;B[ed]
+;W[fg]C[Black has approached the White positions, but White has also had time to solidify much of the territory.  Right now, White has the advantage, so Black needs to start a fight to try to wrest away the lead.]
+;B[fc]C[Good instinct to start fighting.
+
+White is strong enough now that White should be able to defend this assault.]
+;W[fd]C[Correct.]
+;B[gd]
+;W[fb]LB[hd:A]C[Making a capture to stay connected is the right idea.
+
+In this case, the three White stones on the left are quite strong.  Since the left side is stronger than the right side, it is better to help the right side by capturing at "A".]
+;B[db]
+;W[eb]
+;B[hd]
+;W[hc]C[Good.
+
+Black shows good strategic sense - at this point, Black must invade successfully or Black cannot balance the territory.  White also recognizes that this is Black's only hope and is doing well to pressure the invading force.]
+;B[he]
+;W[hf]LB[fe:A][gf:B]TR[fd][ge]C[This is the right idea, but the move doesn't quite work.
+
+Black can play at "A" for a double atari against the TRIANGLE stones.  Black will then capture one or the other and connect the invading force to Black's main group.
+
+Instead of the move played, White could have played at "A" herself to remove the threat and then resumed the attack.  Or, White could play at "B" so that "A" is no longer double atari for Black.]
+;B[if]
+;W[ig]
+;B[id]
+;W[gb]
+;B[ib]LB[fe:A]C[Very resourceful idea!
+
+Often times, when a group is having trouble living, it may have chances to make an eye in the corner.  White defends well, and the idea doesn't quite work.  Even so, good thinking!
+
+The best move for Black is still the double atari at "A".  With practice, it will become easier to spot capturing opportunities.  Keep working at it!
+
+]
+;W[fe]C[Well done by White!
+
+This point was critical.  Now the Black group on the right cannot make two eyes, nor can it connect to friendly forces.
+
+Notice how this was the key point for both sides.  Since White took it first, White has a big advantage.]
+;B[ha]CR[ie]LB[if:A]TR[ia]C[The is the right idea for trying to build an eye at the TRIANGLE point.
+
+The main problem is that Black cannot both build an eye and connect to the other invading force.  So, if White simply separates the two Black groups, then they will be unable to reinforce each other, and eventually White will capture them.
+
+The second problem is the Black's primary invading force only has a false eye at CIRCLE.  White is threatening to capture the single Black stone at "A", so either Black connects, which closes the eye, or allows the capture, which loses the eye.]
+;W[ic]C[Good.  Separating the Black invaders.]
+;B[bc]C[Good flexibility in thinking!
+
+Black realizes that the invasion no longer works and so Black turns her attention to the largest remaining open area on the board.]
+;W[da]
+;B[ef]C[Reasonable to try a counter attack that may help the original invasion.]
+;W[ff]
+;B[fa]
+;W[cb]
+;B[bb]
+;W[ca]
+;B[ba]LB[cd:A]C[This move could be dangerous for Black, as White will demonstrate.  Black can connect to friendly forces, but should be confident in the sequence before playing.
+
+If Black is unsure, then it may better for Black to connect to friendly forces now by playing at "A".]
+;W[bd]LB[cd:A]C[Nice!
+
+This move starts to threaten the Black stones in the upper left.  The White stone cannot be cutoff from friendly forces by a Black move at "A" because White will win the capturing race (|shown in variation;1;43|).
+
+The White stone only has 3 liberties, which is the same as the Black stones in the upper left, so it seems like Black should win if Black plays first.  The tricky part here is that White can gain more liberties while Black cannot.  The liberty count is a good guideline, but it is not a final answer.
+
+|See variation;2;43|
+]
+(;B[ac]C[This is a reasonable idea because it makes eyes for the Black group.
+
+Trying to make eyes to live and trying to connect to friendly forces are important principles for helping weak groups.
+
+In this case, White can still capture the Black stones because the Black stones have 3 liberties and the White stone has 3 liberties, but it is White who goes first.]
+(;W[cd]C[This is the right idea, but White does have a better play in this situation.
+
+|See variation;0,1;44|
+
+Connecting to friendly forces helps build strength.  Here White can connect directly (as she does with this move) or by capturing the Black stones that are separating the White forces.  The variation shows one way for White to do this.
+
+Rebecca, as we discussed afterwards, you felt that you had captured the Black stones (and you were right!).  The reason the Black stones eventually escaped was because White did not press the advantage.  Well played and good judgment by White to get to this point, and good tenacity from Black to hang in there and seize the chance to escape when presented with the opportunity.]
+;B[ad]
+;W[ae]
+;B[be]LB[ae:A]C[Good.
+
+Black escapes by capturing the stone at "A" and connecting to friendly forces.]
+;W[ce]
+;B[bf]
+;W[eh]
+;B[dh]
+;W[eg]
+;B[di]
+;W[ei]
+;B[]
+;W[]TW[ea][fa][ga][ha][ia][db][hb][ib][fc][gd][hd][id][he][ie][gf][if][hg][fh][gh][hh][ih][fi][gi][hi][ii]TB[aa][ab][ae][af][ag][ah][bh][ch][ai][bi][ci]C[Good game with good ideas on both sides.
+
+Wendy, this was a really good first game.  Your intuition about using the corner in the upper right to try to make a living group was remarkable.  Once you've gotten more practice and some familiarity with tactical techniques, it will be easier for you to see when certain sequences work and when they don't.  Also, good perseverance in the upper left!
+
+Rebecca, nice game.  In the opening, I liked how you balanced spreading your forces across the board with keeping them connected so they could help each other.  You showed good poise as you defended against the invasion on the right side, and your judgment about attacking in the upper left was also correct.  When you have an intuitive judgment like that, take the time to count liberties and try to visualize sequences to see whether you can make it work.])
+(;W[ad]
+;B[cd]
+;W[ab]C[Atari.]
+;B[be]C[This atari is one move too late.]
+;W[aa]))
+(;B[cd]C[The liberty count is now 3 for Black versus 2 for White, so it seems like White is behind.  However, White can extend once to gain 2 additional liberties.  Now, when Black plays to reduce White's liberties back to 3, the liberty count will be 3 versus 3 and it's White to move.]
+;W[be]
+;B[ce]
+;W[ac]
+;B[bf]
+;W[ab]
+;B[ae]
+;W[aa])
+(;B[be]LB[ac:A][cd:B]C[This tactic is called the "clamp."
+
+Black can save the three stones by connecting to friendly forces with this clamp.
+
+White may answer at "A" or "B".
+
+|Variation A;2;44|
+
+|Variation B;2,1;44|]
+(;W[ac]
+;B[cd]C[Atari.]
+;W[ad]
+;B[ae]C[Atari, and the White stones will be captured.])
+(;W[cd]
+;B[ad]
+;W[ce]
+;B[cf])))

@@ -1,0 +1,141 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[6.50]
+PW[Colin]PB[Brian K]C[Good play on both sides in this game made for an extremely close match.  
+
+In the end, White made a reading error at |move 46;0;46| that wound up making the results seem more lopsided.
+
+Black attacked well, and White squeezed a lot of value out of his dead stones.  When fighting, remember to check for ladders and nets - they occur frequently in games and recognizing them will improve your playing strength.
+]
+;B[cc]
+;W[gc]
+;B[df]
+;W[gg]C[Both players have drawn the battle lines, Black takes the left and White the right.  Now play could continue with either an invasion behind enemy lines or an attempt to claim more ground at the front.]
+;B[fg]
+;W[ff]C[Black chooses to push at the front, and White meets the challenge directly.]
+;B[ef]
+(;W[eg]C[White shows good spirit here, but unfortunately this cut doesn't quite work.
+
+Playing atari from underneath instead would have let White press further in to Black's territory while claiming some territory for White.
+
+|See variation;1;8|]
+;B[fh]
+;W[dg]
+;B[cg]C[Good choice by Black.
+
+Notice how this move decreases the liberties on the White group, and even if the White group were to survive, this move also increases Black's potential territory on the left side.]
+;W[cf]C[White chooses to counter attack.  This is good fighting spirit.]
+;B[ce]
+;W[ee]C[Very nice.
+
+At this point, White realizes that White's stones on the left and at the bottom are dead, so White uses those dead stones to make threats and expand White's territory on the right side.]
+;B[bf]
+;W[de]
+;B[cf]
+(;W[fe]C[Well done.
+
+White now connects his two groups in the center and they become quite strong.  This strength can help White if fighting breaks out in the center, or if White wants to poke into the left side or at the top.  I've included an example variation to show what *might* happen if White had completely ignored those central groups.
+
+|See variation;0,1;18|]
+;B[fc]C[Black pushes at the front on the upper side now.]
+;W[gh]LB[eh:A]C[Good thinking.
+
+Instead of responding to Black, White decides to make counter threat.  If Black does not respond, then White can play atari at "A" and save his stones on the lower side.
+
+Always responding to your opponent makes it difficult to apply pressure on them, which means they will be free to set the character of the game.  Here White takes the opportunity to threaten a counterattack at the bottom.]
+;B[eh]
+;W[ec]
+;B[eb]
+(;W[fd]C[White had an opportunity to capture this stone in a short ladder by playing atari from the other side.
+
+|See variation;0,0,1;24|]
+;B[fb]
+;W[dd]
+;B[dc]
+;W[gb]
+;B[ga]
+;W[ha]
+;B[db]
+;W[fa]
+;B[ea]
+;W[fi]
+;B[dh]
+;W[ei]
+;B[di]
+;W[gi]
+;B[ga]C[This is a ko.  White cannot recapture immediately because it would repeat the same position for Black.
+
+White needs to make a threat so that Black will respond, and then White can recapture.  Pressing into Black's territory on the left is a good threat because Black will lose more from that threat than he would gain by winning the ko.]
+;W[cd]
+;B[bd]
+;W[fa]
+;B[ed]
+;W[ga]C[The score right now is 28.5 points for White versus 28 points for Black - they are within 0.5 points of each other.  Extremely close!!]
+;B[gd]C[White can capture this Black stone in a ladder.
+
+This is a critical point in the game.  If White reads this successfully, then White wins by 0.5 points.  If White misreads, then Black will get a large swing in his favor.
+
+In situations like this, take your time and think through your options.  It may help to ask yourself questions, "Can I capture this stone in a net?  In a ladder?"]
+(;W[he]C[This is a net.  The right thought (White must capture the invader), but not quite the right technique.
+
+|See variation;0,0,0,1;46|]
+;B[hd]
+(;W[ge]C[Good reading!
+
+This move is critical, otherwise White's losses will be even greater.  The problem was that a net was not the right technique to use originally.  I've included a variation to show what would happen if White were to continue playing the net.
+
+|See variation;0,0,0,0,1;48|]
+;B[hc]
+;W[id]
+;B[hb]
+;W[ic]
+;B[ia]
+;W[ie]
+;B[ib]
+;W[]
+;B[]C[Nice game!  It was full of exciting attacks and counterattacks.
+
+The ultimate turning point was when White used a net instead of ladder to try to capture the invading Black stones.  You both showed a good sense of balance as you moved to claim territory and threaten each other's groups.])
+(;W[hc]C[Black's stones only have two liberties now, but the problem is that the central White group also only has two liberties.]
+;B[gf]C[Atari on the central White group.]
+;W[ge]
+;B[hf]C[Another atari on the central White group again.]
+;W[id]
+;B[hg]C[White has saved the central group, but it's not over yet.
+
+Now Black's invading group has three liberties while White's group only has two.
+
+Notice how the net successfully captured the original invading stones, but Black was able to use those stones to generate new threats against the group at the bottom.  White had to spend moves capturing the original invaders, which gave Black time to build up his attacking force against the bottom.  
+
+This type of technique requires patience and careful reading to recognize, but it becomes easier with practice.]
+;W[hh]
+;B[ih]C[Atari and the White stones at the bottom will be captured next turn.]
+;W[if]C[This atari on the Black stones is one move too late.]
+;B[hi]))
+(;W[hd]
+;B[ge]
+;W[gf]
+;B[he]
+;W[hf]
+;B[ie]
+;W[id]
+;B[hc]
+;W[if]C[White has successfully captured the invading force, and the game will end 28.5 to 28 in White's favor.]))
+(;W[fb]
+;B[fd]
+;W[gd]
+;B[ed]
+;W[dd]))
+(;W[eb]C[Suppose instead of connecting the two central groups, White decides to expand near the top.  Black can now attack the White center and either break into White's territory or claim the majority of the center.]
+;B[fe]
+;W[gf]
+;B[ed]
+;W[dd]
+;B[dc]
+;W[cd]
+;B[bd]TR[eb]C[This is just one possibility, and it occurred because White ignored the center with the TRIANGLE move.
+
+The important point is that White had an awareness of a weakness in his position and played to remedy that weakness.]))
+(;W[fh]
+;B[eg]
+;W[eh]
+;B[dh]C[Black does not necessarily have to answer White this way.  I've included the variation to show the basic idea.]))
