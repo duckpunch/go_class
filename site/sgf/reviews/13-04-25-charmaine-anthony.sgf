@@ -1,0 +1,134 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[Nice game.  There weren't too many opening related things to comment about as most of the game was very tactical.  That said, when the moment came, both of you found the big areas on the board.  Good job!
+
+The big thing about this game was finding the 3-3 point and getting the timing down to use it.  The basic idea of when to play it is when you can make your opponent inefficient.  That is, if they are thick just outside the corner, the timing might be good to invade.
+
+Conversely, look to defend your 3-3 points in those situations.]
+;B[pd]
+;W[dd]
+;B[pp]
+;W[dp]
+;B[oj]C[Strange move.  Almost sanrensei :)]
+;W[qf]
+;B[qh]
+;W[qd]
+;B[pe]
+;W[qe]
+;B[pf]
+;W[pc]
+;B[oc]
+(;W[ob]C[This move is dangerous since it opens up the marked weakness.
+
+|This is a more typical way to play;1;14|]
+;B[qc]
+;W[qb]
+;B[pb]
+;W[rc]
+;B[nb]TR[pc]C[It's better to just fill ko here.  You may not be able to kill white, but you'll certainly get sente while white lives and makes only a few points.]
+;W[oa]C[White should take ko instead.  Black has no ko threats at this stage of the game.]
+;B[na]
+;W[qa]
+;B[pa]
+;W[pc]
+;B[rg]
+;W[rf]
+;B[qc]
+;W[qg]
+;B[rh]
+;W[pc]
+;B[ph]
+;W[od]
+;B[qc]
+;W[pg]TR[og]
+;B[pc]
+;W[rb]
+;B[nd]LB[fc:C][og:A][fq:B]C[This move is very defensive for no good reason.  There isn't much the white stone can do.  Alternate moves are marked.
+
+"A" preserves the effectiveness of the black wall.
+
+"B" and "C" are standard corner approach moves.]
+;W[jd]C[Big move for white.]
+;B[jq]C[Big move for black.]
+;W[dj]LB[cq:A]TR[cc][qq]C[Big moves all around!
+
+At this point, the two marked 3-3 points are playable.
+
+The reason "A" is not as good is because white's answer would be too easy.
+
+|See variation;0,1;41|]
+(;B[jj]TR[qq]C[Not a bad idea here.
+
+After this move, white's move should probably be the 3-3 invasion.
+
+|See variation;0,0,1;42|]
+(;W[hp]
+;B[ip]TR[cc]C[Protecting the bottom right framework is not a bad idea here.
+
+That said, I think the marked invasion is more urgent.]
+;W[hq]
+;B[im]C[The more stones that are played in this area, the more valuable 3-3 gets.  Even defending it now would be quite big.]
+;W[hm]
+;B[in]
+;W[hn]
+;B[ho]
+;W[go]
+;B[io]
+;W[no]TR[jj][oj][im]C[This invasion is poorly placed.  It is easier to survive if you jump into the corner.  Here, there is no place to run because it's all black stones on the way out.]
+;B[np]
+;W[po]
+;B[oo]
+;W[qq]C[And the 3-3!
+
+Black should decide at this point whether or not he thinks he can kill white.  If he believes he can, he should obviously do so.  If not, he should look to make as much profit as possible while keeping sente.  Both white 3-3 invasion points are ripe for the taking.
+
+|A possible variation;0,0,0,1;57|]
+(;B[pn]
+;W[qo]
+;B[qp]
+;W[on]
+;B[op]
+;W[qn]
+;B[pm]
+;W[qm]
+;B[nn]TR[rq]C[Black should instead disconnect white.  You want to take away the corner to make life more difficult.]
+;W[om]
+;B[pl]
+;W[mo]
+;B[nm]
+;W[rp]
+;B[rq]C[Good idea with this cross cut.  It works sometimes (but not this time).  Try to read it out in advance.]
+;W[rr]
+;B[ro]
+;W[sq]
+;B[rn]
+;W[rm]
+;B[sm]
+;W[so])
+(;B[qp]
+;W[pq]
+;B[rq]
+;W[rr]
+;B[rp]
+;W[oq]
+;B[op]
+;W[mr]
+;B[mq]
+;W[nr]
+;B[cc]))
+(;W[qq]TR[qp][pq]C[After 3-3, both black walls will end up feeling quite cramped.]))
+(;B[cq]
+;W[cp]
+;B[dq]
+;W[eq]
+;B[er]
+;W[fq]
+;B[fr]
+;W[gq]
+;B[bp]
+;W[bo]
+;B[bq]
+;W[cn]C[This works too well with white's other stones.]))
+(;W[qc]
+;B[pb]
+;W[qb]))

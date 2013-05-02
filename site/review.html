@@ -36,13 +36,15 @@
                 if (var_links) {
                     for (i = 0; i < var_links.length; i++) {
                         jump_to_tokens = var_links[i].replace(/\|/g, "").split(";");
-                        comment = comment.replace(var_links[i],
-                            $("#jump-to-template").jqote({
-                                label: jump_to_tokens[0],
-                                variation_stack: "[" + jump_to_tokens[1] + "]",
-                                move_num: jump_to_tokens[2]
-                            })
-                        );
+                        if (jump_to_tokens.length == 3) {
+                            comment = comment.replace(var_links[i],
+                                $("#jump-to-template").jqote({
+                                    label: jump_to_tokens[0],
+                                    variation_stack: "[" + jump_to_tokens[1] + "]",
+                                    move_num: jump_to_tokens[2]
+                                })
+                            );
+                        }
                     }
                 }
                 $("#comments").html(comment);

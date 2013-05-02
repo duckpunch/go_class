@@ -1,0 +1,139 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[David]PB[Richard]C[Interesting game!
+
+Most of this review is about fuseki.  In this game, there was a lot of agreement.  Black wanted the sides and the corners while white wanted the center.
+
+A few general note about playing the influence game.
+
+1. You should look to attack your opponent where the opportunity presents itself.
+2. Failing that (say if they are really defensive), you should build up a big framework and force them to create a weak group which you can exploit.]
+(;B[dd]
+;W[jj]C[White trying for an all-or-nothing influence-based strategy]
+;B[pd]
+;W[jd]C[Splitting black is important here.  Good move.]
+;B[dp]
+;W[pp]TR[dj]C[It might be good for white to continue his strategy and "disconnect" black here.  Playing the corner here doesn't work well with the first two moves.]
+;B[dj]TR[dd][dj][dp]C[Good move for black to take sanrensei here.  It provides a framework for continuity with the marked stones.
+
+White can only focus on attacking the upper right stone now.]
+;W[jp]TR[qf][pj]C[Either of the marked moves would be better for black.  I'd prefer the approach move.  The idea with this kind of opening for white is to make black feel uncomfortable.]
+;B[pj]
+;W[md]TR[qf]C[This move is not aggressive enough for white.  Since white has a lot of help in the middle, the marked move is possible.]
+;B[nc]
+;W[en]CR[en]C[This is the first white move that indicates to me that white wants to make territory in the center directly.
+
+That is a bad idea.
+
+|Here's what happens in a vacuum if you give your opponent all 4th line territory;1;1|
+
+For sake of argument, here's what happens if you |give them the third line;2;1|.]N[middle_territory]
+(;B[dn]C[This move is ok for black, but I think the marked move is a bit better.  It's important to recognize white's intention.  If you play this contact move, you give him the opportunity to build quite a strong wall.
+
+|See variation;0,1;13|]
+;W[do]
+;B[eo]
+;W[ep]
+;B[co]
+;W[fo]
+;B[hc]TR[do]C[Filling ko is important here as it opens up several white cut points.]
+(;W[dq]C[White should play ko instead.
+
+|See variation;0,0,1;20|]
+;B[do]TR[fn][fp][eq]C[Nice work filling ko.  Black now has several cut points.]
+;W[mp]
+;B[eq]
+(;W[ok]TR[fp]C[White should connect this atari instead.  It keeps the black cutting stone disconnected.
+
+|See variation;0,0,0,1;24|]
+;B[qk]TR[pk]C[The marked move is more solid than this one.]
+;W[jm]LB[cc:A][qf:C][fp:B]TR[pj][qk]C[It is not clear what this move is doing.  Alternate moves are marked.
+
+"A" takes away some of blacks territory.  This can be effective because any influence black gains here will not be as strong because white already owns the center.
+
+"B" continues to build the framework he is developing on the bottom.
+
+"C" aims to reduce the upper right for black and perhaps stage an attack on the marked black stones.]
+;B[qn]C[Good move to reduce white and protect a weak group.]
+;W[oe]C[White is still trying to make territory directly in the center.  Black will gain a large advantage if this continues.]
+;B[pe]
+;W[od]
+;B[oc]
+;W[nd]
+;B[mc]
+;W[ld]
+;B[lc]
+;W[oh]
+;B[ph]
+;W[hd]
+;B[gd]
+;W[gc]
+;B[fc]
+;W[gb]C[Good move here.  White extending here slows down black.]
+;B[ic]
+(;W[id]C[Instead of connecting here, white can kill some stones and disrupt black's territory.
+
+|See variation;0,0,0,0,1;44|]
+;B[fd]
+;W[ge]
+;B[hb]TR[gb][gc][fj]C[Killing these two stones is small.  Black should consider a move which expands his own framework, as marked.]
+;W[fe]C[This move forces black to make very big territory.]
+;B[ee]
+;W[ef]
+;B[df]
+;W[ff]
+;B[qp]C[Not a bad direction by black.]
+(;W[kd]TR[dg][po][fp][qq]C[This move is very, very small.  Instead, white should target making territory at one of the marked points.
+
+|One possibility;0,0,0,0,0,1;54|]
+(;B[jc]TR[ni][fn][pq]C[Black should not respond to white's small move here.  This move is very small as well since no black stones are about to die.  Marked are some alternatives.
+
+|One variation played out;0,0,0,0,0,0,1;55|]
+;W[ej]
+;B[em]
+;W[fm]TR[fn]C[Better to just defend the atari.]
+;B[fn]
+;W[gn]
+;B[fp]
+;W[gp]
+;B[go]
+;W[ho]
+;B[pq]
+;W[pn]
+;B[qo]
+;W[po]
+;B[fo]
+;W[oj]
+;B[gm]
+;W[gl]
+;B[hn]
+;W[hm]
+;B[fl])
+(;B[ni]
+;W[oi]C[White may try to disconnect.]
+;B[oj]
+;W[nj]
+;B[nk]
+;W[mj]
+;B[og]
+;W[nh]
+;B[nl]TR[ok]C[The marked stone is dead and white's lower center is destroyed.]))
+(;W[po]
+;B[kd]C[If black decides to try to invade, he won't be able to reduce much.]
+;W[ke]
+;B[kc]C[White has only lost once point.]))
+(;W[fd]
+;B[ge]
+;W[ec]C[This sequence would be counter to white's plan all game, but it would be necessary at this point considering how the game is going.]))
+(;W[fp]TR[eq]C[Black will have to work to keep his stone connected.]
+;B[dr]
+;W[fq]
+;B[cq]TR[fo][fp][fq]C[White can make a nice wall to go along with his other stones.]))
+(;W[do]TR[cn][cp]C[If white wins the ko, all his stones will be connected and black will have cut points.]))
+(;B[fp]LB[fj:A][go:B]C[White wants a move in the A and B area, but can't get both.]N[13_a]))
+(;AW[ee][fe][ge][he][ie][je][ke][le][me][ne][oe][ef][of][eg][og][eh][oh][ei][oi][ej][oj][ek][ok][el][ol][em][om][en][on][eo][fo][go][ho][io][jo][ko][lo][mo][no][oo]AB[dd][ed][fd][gd][hd][id][jd][kd][ld][md][nd][od][pd][de][pe][df][pf][dg][pg][dh][ph][di][pi][dj][pj][dk][pk][dl][pl][dm][pm][dn][pn][do][po][dp][ep][fp][gp][hp][ip][jp][kp][lp][mp][np][op][pp]C[Black leads on the board by 111 points.
+
+|Back to game line;0;12|]N[fourth_line])
+(;AW[dd][ed][fd][gd][hd][id][jd][kd][ld][md][nd][od][pd][de][pe][df][pf][dg][pg][dh][ph][di][pi][dj][pj][dk][pk][dl][pl][dm][pm][dn][pn][do][po][dp][ep][fp][gp][hp][ip][jp][kp][lp][mp][np][op][pp]AB[cc][dc][ec][fc][gc][hc][ic][jc][kc][lc][mc][nc][oc][pc][qc][cd][qd][ce][qe][cf][qf][cg][qg][ch][qh][ci][qi][cj][qj][ck][qk][cl][ql][cm][qm][cn][qn][co][qo][cp][qp][cq][dq][eq][fq][gq][hq][iq][jq][kq][lq][mq][nq][oq][pq][qq]C[Black leads on the board by 15 points.
+
+|Back to game line;0;12|]N[third_line]))

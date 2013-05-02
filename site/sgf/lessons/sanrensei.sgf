@@ -1,0 +1,52 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[Hello!
+
+This lesson is a continuation of the fuseki lesson.  You should check it out to make sure you understand all the fundamental concepts before looking at this one.
+
+There are many different kinds of openings in go.  Perhaps one of the more popular ones among amateurs is called "sanrensei".  Sanrensei translates to "three stars in a row".  In go, this means the star points.]
+;AB[pd][pj][pp]C[Let's look at the basic pattern.
+
+The basic idea is to get your stones looking something like this.]
+;AW[dd][dp]LB[dd:4][pd:1][pj:5][dp:2][pp:3]C[The order of moves might look something like this.]
+;AE[dd]AW[pj]LB[pd:1][pj:4][dp:2][pp:3]C[Before we continue, you may be asking, what if white does not play along?
+
+The answer is he does not have to.
+
+The first moves might look like this.  White 4 prevents the sanrensei pattern.]
+;AW[jd]AB[dd]LB[dd:1][jd:2]C[Black 1 tries again to make the sanrensei pattern, but white 2 prevents that from happening.
+
+The point of showing this is just to say, if you don't want to play against a particular opening, you can typically prevent it.
+
+Back to sanrensei...]
+;AE[jd]AW[dd]AB[pj]LB[pd:4][qd:3][rd:2][sd:1]C[Now that we've seen the pattern, we'll look into the reasoning behind playing sanrensei.
+
+The first thing to notice is that each black stone is on the 4th line.
+
+In the opening, there is typically a distinction between 3rd and 4th line moves.]
+;C[The 4th line is typically regarded as the "line of influence" while the 3rd line is typically called the "line of territory".
+
+Let's take a look into what that means.]
+;AE[dd][pd][pj][dp][pp]AB[hq][kq]LB[hq:3][hr:2][hs:1]C[To start, let's look at some stones on the third line.]
+;TR[ir][jr][is][js]C[The idea is that it is difficult for an opponent to invade and live in the marked area, so we can think of the area under them, tentatively, as territory.]
+;AE[hq][kq]AB[hp][kp]TR[iq][jq][ir][jr][is][js]C[The fourth line, on the other hand, has more space available making a successful invasion more likely.]
+;C[That said, because the stones are "higher", they will have more influence on the game.
+
+Influence is often a harder concept to grasp.  We won't be able to go into all the subtleties in this lesson (in fact, it usually takes a player at least a year or two to feel comfortable with what influence means and how to play with it).
+
+We'll try to hit on what we need to know for playing with sanrensei.
+
+When we play an influence-based game, we're typically aiming for one of two things:
+
+Either we are trying to build a huge territorial framework or we are attacking our opponent.]
+;AE[hp][kp]AW[nb][nc][pc][qc][dd][dp]AB[lc][od][pd][qd][me][pj][pp]TR[lc][od][pd][qd][me][pj][pp]C[Going back to sanrensei, this is one normal variation.  Here we see that black has built a large moyo, or territorial framework.  Moyos aren't quite territory because the opponent can often reduce it.  That said, if you can solidify a moyo to points, it can be very big.]
+;AW[ph]AB[oi]LB[ph:1][oi:2]C[Because of the strength we gained here, if our opponent tries to invade, we can attack very severely.  For instance, if white invades here, he will have a very difficult time making life.  This is another advantage of influence.  Your opponent needs to be careful not to put themselves in a disadvantageous position.]
+;AE[ph][oi]LB[nb:7][lc:2][nc:1][pc:5][qc:3][od:6][qd:4][me:8]C[With all that said about influence though, this is a very standard opening when black plays sanrensei.
+
+The reason why is because white manages to get a settled group in the top right and he has sente.]
+;AW[jp]LB[jp:1]C[White's next move can be something like this to try to negate some of the effect of black's moyo.]
+;AE[nb][lc][nc][pc][qc][od][qd][me][jp]C[Now, you may be thinking, what if white decides to fight influence directly with influence by playing on the star points?]
+;AW[dj][jp]AB[jd][jj]LB[jd:2][dj:1][jj:4][jp:3]C[The idea is fairly simple.  There are only 9 star points.  White will only get 4 while black gets 5.  It's true that it is now white's turn, but it's hard to feel like white is not behind.]
+;AE[dd][jd][pd][dj][jj][pj][dp][jp][pp]C[That's it for this lesson!
+
+Next week we'll look at shapes.  We'll talk about how we can be efficient in our tactics to be as effective as possible.])
