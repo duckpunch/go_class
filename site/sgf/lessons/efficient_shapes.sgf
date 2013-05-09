@@ -1,0 +1,62 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[This lecture is on shape.  In particular, how to make shapes which can help us be efficient in tactical positions.
+
+Shapes which are generally regarded as "good" shape shine in at least a few of these three categories:
+
+- Liberties (they have a lot, usually with not very many stones)
+- Flexibility (good shapes either have great potential for eyes or move across the board very quickly or both)
+- Connection (good shapes are incredibly difficult to disconnect)]
+;AB[ii][ji][jj]C[Let's start with this shape.  This is the infamous "empty triangle".
+
+We'll start with connection.  Clearly, this shape is connected.  That said, do we need all 3 stones?]
+;AE[ji]TR[ji][ij]C[Notice that this shape is also connected.  Since white does not occupy either of the marked spots, we can think of black as connected.
+
+As far as connection goes, black doesn't need another move.]
+;AB[ji]TR[ij]C[This is the reason we call this shape "empty".  If white had a stone in the marked spot, black's shape wouldn't be bad.]
+;LB[ih:2][jh:3][hi:1][ki:4][ij:7][kj:5][jk:6]C[The next thing we'll look at is the liberty count.
+
+With 3 stones, we have 7 liberties.
+
+Without context, this doesn't mean much.  We'll keep these numbers in mind for later.]
+;TR[hj][ik]C[What about flexibility and eye shape?
+
+At the moment, the only potential black has for eye shape are the marked points.  It would not be particularly hard for white to disrupt the eye shape here.  
+
+Furthermore, this group doesn't take up much of the board.  Everything is clumped together - this group will live or die in its entirety.  This reflects its lack of flexibility.]
+;AE[ii][ji][jj]AB[hi][ki][ij]C[Let's take a look at another shape.  We'll start in the same manner with connection.
+
+This shape is obviously less connected than the empty triangle because it is not actually connected.  That said, let's look at the potential for connection.]
+;LB[hi:1][ii:B][ji:C][ki:3][hj:A][ij:2][jj:D]C[The plausible moves for disconnection are the letters marked.
+
+Let's look at them in order.]
+;AW[hj]TR[ii][ji][jj]C[Note that each of these 3 moves allow the original 3 black stones to stay connected.]
+;AW[ii][ji]AB[ih][jj]LB[ih:2][ii:1][ji:3][jj:4]C[Even if black decides not to play, he still has a ladder to stay connected.]
+;AE[ih][ji][hj][jj]C[What if white starts here?]
+;AW[ji]AB[ih]LB[ih:1][ji:2]TR[jh][jj]C[In this case, black can choose from two different ladders.]
+;AW[lf]LB[jh:A]C[This is useful if we can tell that the ladder on one side doesn't work.
+
+For instance here, we would play the ladder starting at A.]
+;AE[lf][ih][ii]C[This white move to try to disconnect is a bit easier to handle.]
+;AB[jj]LB[jh:A][jj:1][kj:B]C[If black plays 1, A and B are miai for connection.]
+;AW[jj]AB[ji]LB[ji:2][jj:1]C[If white plays 1 here, black can connect with 2.]
+;AE[ji][jj]LB[hh:2][kh:5][gi:1][ii:3][ji:4][li:6][hj:10][jj:8][kj:7][ik:9]C[So, we've established that black is fairly connected here.
+
+Let's look at the liberty count.  Recall the empty triangle made 7 liberties with 3 stones.
+
+This shape is making 10 liberties with 3 stones - a far superior liberty per stone ratio.]
+;C[Now let's look at flexibility.
+
+This group is covering a larger area on the board and since the stones are not completely connected, it is open to strategies which involve sacrifices.  This is a bit of a strange notion in go.  You want to strive for connection, but you don't want to be overconcentrated because it makes your stones less efficient.]
+;TR[jg][ih][jh][ji][gj][hk]C[How about eye shape?
+
+Black has the marked moves and perhaps much more in terms of developing eyes.]
+;AE[hi][ki][ij]AB[fi][gi][ni][fj][gj][mj]C[So that was the short lesson on comparing good shape with bad shape.
+
+The last tidbit I want to mention is if you add stones to a bad shape, it will still be a bad shape.
+
+If you take away stones from a good shape, it will still be good shape.
+
+For example, the shape on the left is the original empty triangle with an extra stone - terrible shape.
+
+The shape on the right is the good shape we saw with one stone removed - still good shape.])
