@@ -1,0 +1,98 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Luke]PB[Daniel]C[Well played!
+
+This game started out peacefully until black decided to pick a fight around move 8 or so.  The remaining 40+ moves revolved around that fight.  The main take home for this game is about connecting and disconnecting.
+
+Black did a good job keeping white separated and thus, less efficient.
+
+Overall, strong fighting from both!]
+;B[dc]
+;W[fg]
+;B[gd]
+;W[cf]C[Nice start for both players :)]
+;B[ce]
+;W[de]
+;B[cd]
+;W[be]LB[bf:A][df:B][dg:C]C[Playing this way exposes "A" and "B" as cut points.  White can play "C" instead]
+;B[bg]TR[bf][df]C[A strange move that helps white fix his shape.  Just cut directly at one of the marked points.]
+;W[bf]
+;B[dg]
+(;W[cg]TR[df]C[White plays this splitting move to ensure that black is killable.  What if he connects instead?
+
+|See variation;1;12|]
+;B[df]
+;W[bh]TR[dh]C[Better for white to go for the connection as marked.]
+;B[eh]
+;W[eg]
+;B[dh]
+;W[fh]
+;B[ee]
+;W[ef]TR[ge]C[This move does not have much meaning.  It isn't threatening very much.  White can try to defend some territory with the marked move instead.]
+;B[gf]C[Good move by black.]
+;W[gg]
+;B[hg]
+;W[fe]
+;B[ed]
+;W[ge]
+;B[he]
+;W[hh]
+;B[gi]TR[ih]C[Marked is a better move.  The idea is to limit your opponent's "free" moves.  White should die after black plays triangle.]
+;W[ig]
+;B[hf]
+;W[fi]
+;B[if]
+;W[ih]LB[di:A][hi:B]C[Nice.  Note that "A" and "B" are miai for life for white.
+
+Miai means, if your opponent takes one, you can take the other and the result will be the same.  Here, since "A" and "B" are interchangeable in that white will still live, we can say white has miai for life.
+
+Since it's a bit difficult to read, let's |look at what happens;0,1;35| when black decides to ruin white's two eyes at "B".]
+(;B[fd]
+;W[hi]
+;B[ei]
+;W[ci]
+;B[ff]
+;W[gh]
+;B[bd]
+;W[ad]
+;B[ac]
+;W[ae]
+;B[bc]
+;W[di]
+;B[dd]
+;W[ch]
+;B[de]
+;W[cb]
+;B[da])
+(;B[hi]C[Now white can only make one eye in the lower right.]
+;W[di]CR[di]LB[ch:A][ci:B][ei:C]TR[cf][cg][fg][bh][fh][fi]C[White plays this magical move to connect his two marked groups.  Black can try to disconnect white at "A", "B", or "C".
+
+|Variation A;0,1,0;37|
+
+|Variation B;0,1,1;37|
+
+|Variation C;0,1,2;37|]
+(;B[ch]
+;W[ci]
+;B[dd]
+;W[ei]
+;B[de])
+(;B[ci]
+;W[ch]TR[ei]C[If black captures at the marked spot, it will be a snapback.
+
+|The snapback;0,1,1,0;39|
+
+|The nicer variation for black;0,1,1,1;39|]
+(;B[ei]
+;W[di])
+(;B[dd]
+;W[ei]
+;B[de]))
+(;B[ei]
+;W[ch])))
+(;W[df]
+;B[cg]
+;W[eg]
+;B[eh]
+;W[fh]
+;B[di]C[Note this familiar shape.  Do you remember how white can kill this?]))

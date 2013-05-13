@@ -1,0 +1,64 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Brian]PB[Jon]C[Overall, I like the decisions that were made by both players in this game.
+
+There was a mistake early on that caused white to have bad shape and a lingering weakness for most of the game, but that happens.  Aside from that tactical mistake, both players played well.
+
+Nice job!]
+;B[dg]
+;W[ee]
+;B[de]
+;W[dc]
+;B[cc]
+;W[ff]LB[ed:A][df:C][ef:B]C[First strange move.
+
+"A" might be better because it is more continuous with your other stone.
+
+"B" might be better because it threatens the cut at "C".]
+;B[dd]
+;W[ec]
+;B[ed]
+;W[fd]
+;B[fg]
+;W[ef]LB[df:A][eg:B]TR[cb][gg]C[Bad shape.  The root cause was the first strange move.
+
+From this position, white should consider what side he wants to push at, either "A" or "B", and then push at it.  Otherwise, he can choose from one of the big points.]
+;B[eg]C[Good direction to block.]
+;W[df]
+;B[cf]
+;W[gg]TR[gf]C[White's move is overly aggressive. From this point on, white has bad aji (bad potential).
+
+If black attacks the weak points now, he can win handily.
+
+|See variation;1;17|]
+(;B[fb]C[This gives white a chance to fix his weaknesses.  Just cut directly.]
+;W[cd]
+;B[ce]
+;W[bd]
+;B[bc]
+;W[be]
+;B[bf]
+;W[cb]
+;B[ad]TR[bb]C[Black can play here instead.]
+;W[bb]
+;B[ae]
+;W[gh]CR[gh]TR[fc]C[This is a nice move to fix the weakness, but the more urgent move is to protect the marked cut point.]
+;B[fc]
+;W[gc]
+;B[db]
+;W[gb]
+;B[gf]C[Nice attack]
+;W[fe]
+;B[gd])
+(;B[gf]
+;W[fe]
+;B[fc]
+;W[gc]
+;B[fb]
+;W[gd]
+;B[hg]
+;W[gb]
+;B[db]
+;W[hf]
+;B[gh]
+;W[he]C[This may be white's best outcome.]))

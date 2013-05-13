@@ -1,0 +1,125 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[9]KM[0.00]
+PW[Craig]PB[Brian]C[This is the game we reviewed in class.
+
+Early on, black had a strong lead and a few opportunities to close it out, but white clawed back and turned the game around.  The end result was a white win, but the endgame position had the potential for 2 major sekis which would have made a black win possible!
+
+The thing to work on from this game for white is to think about the whole board before it gets too late.  For black, the key is to work on your fighting and reading.  There were a few instances in this game where white was able to come back due to black miscues.
+
+Exciting game!]
+;B[cc]
+;W[gg]
+;B[gc]
+;W[cg]
+;B[fg]
+;W[eg]TR[gf]C[I would prefer the marked move for white since it protects the corner stone that is under attack.]
+;B[ff]
+;W[fh]C[Good idea trying to connect.]
+;B[gf]C[Black is trying to build a big framework for territory.]
+;W[gh]TR[ec][dd]C[Protecting this cut is good locally, but in this game, it might make sense to play one of the marked moves or else white may fall behind on the board.]
+;B[ef]C[Good idea for black.]
+;W[hf]TR[df]C[It's bigger to play the marked move for white.]
+;B[dg]
+;W[df]
+;B[eh]
+;W[dh]
+;B[eg]TR[cf][ch][ei]C[Good move not playing the ko.  Black has no threats on the board and white would get to take first.  Filling here makes 3 cut points.]
+;W[ch]
+;B[he]
+;W[hg]
+;B[de]
+;W[cf]
+;B[if]TR[ei]C[Black should disconnect the two groups.  At worst, white becomes inefficient in having to make both groups live.  At best, black can kill off an entire group.]
+;W[ig]TR[ei]C[White should connect.  If he does so, he won't have to worry about life and death and can worry about getting points.]
+;B[fi]C[Good!]
+;W[gi]
+;B[hh]C[This is premature and allows white to connect underneath.]
+;W[ei]C[Good move]
+;B[ce]
+(;W[di]TR[hd]C[This move is slow.  Better to play something like the marked move.
+
+|See variation;1;30|]
+;B[bf]
+;W[ie]
+;B[id]
+;W[if]
+;B[hc]TR[ge]C[Black needs to protect this weakness.
+
+|See what white can do;0,1;36|]
+(;W[ed]
+;B[ge]
+;W[dc]
+;B[dd]TR[cb]C[White's only hope is to get into the corner.  Better for black to cut it off.]
+;W[db]
+;B[ec]
+;W[fc]
+;B[eb]
+;W[fb]
+;B[ea]
+;W[cb]
+;B[fd]
+;W[bc]
+;B[bg]
+;W[cd]
+(;B[ee]TR[bd]C[Black should play marked instead.
+
+|See variation;0,0,1;51|]
+;W[be]C[Great move disconnecting black.  This is where the momentum shifted in white's favor.]
+;B[ae]
+;W[bd]
+;B[bh]
+(;W[ad]TR[bi]C[This move doesn't quite work so well for white.
+
+|See why;0,0,0,0,1;57|
+
+|White should play the marked move;0,0,0,1;56|]
+(;B[af]
+;W[bi]
+;B[ah]
+;W[da]
+;B[fa]C[Game ends here.  That said, there are some moves to play!
+
+|If white plays first;0,0,0,0,0,0;62|
+
+|If black plays first;0,0,0,0,0,1;62|]
+(;W[ci]TR[ae][af][bf][bg][ah][bh]C[White needs to kill the marked stones to prevent seki]
+;B[ih]
+;W[fi]
+;B[hi]
+;W[ii]
+;B[hh]
+;W[ai]
+;B[ih]
+;W[ag])
+(;W[]C[White passes.]
+;B[ih]
+;W[ci]
+;B[hi]
+;W[ii]
+;B[hh]
+;W[fi]
+;B[ih]TR[ai]C[White cannot approach!]
+;W[hi]
+;B[hh]TR[ae][ie][af][bf][cf][df][hf][if][bg][cg][gg][hg][ig][ah][bh][ch][dh][fh][gh][bi][ci][di][ei][fi][gi][hi][ii]C[Seki!
+
+The top left also has an interesting point if white passes.]
+;W[]C[White passes]
+;B[bb]
+;W[ba]
+;B[ab]C[Now the top corner is seki, too!]))
+(;B[bi]
+;W[af]
+;B[ci]
+;W[fi]
+;B[ih]C[White is dead.]))
+(;W[bi]
+;B[af]
+;W[ah]))
+(;B[bd]
+;W[da]
+;B[ee]
+;W[ba]
+;B[cc]
+;W[ac]TR[bh]C[White lives but black is safe and can turn his attention to the group on the lower side.]))
+(;W[ge]LB[hd:B][ee:A]C[White has miai to kill some stones.]))
+(;W[hd]LB[ge:A][ie:B]C[Miai for white to connect to the main group.]))
