@@ -1,0 +1,51 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+C[Today's lecture is about corners.  We'll be talking about 2 things today.
+
+1. Corner enclosures
+2. The 3-3 invasion]
+;AB[qo][pq]C[A corner enclosure is sometimes called a "shimari".  Corner enclosures are not limited to the shape shown.  Corner enclosures are typically formed with two stones, in the corner, and not easily disconnected.
+
+The idea is, if you play a shimari, you are emphasizing one corner.  You are not necessarily guaranteed territory, but the likelihood that you will be able to get territory in that corner increases dramatically.]
+;C[With that said, a corner enclosure usually guarantees at least one of two things.  You will either get territory or influence.
+
+Let's look at what white can do in this situation.]
+;CR[pr]AW[pr]TR[oq][qr]C[Although there are many ways to play against the shimari, we will be looking at what happens when white plays this move.
+
+This is often called a probe since black gets to decide what he wants to get out of this corner.
+
+There are many ways to respond.  We will be looking at two possibilities.
+
+As with all explorations of joseki, it's important that you first understand the broad reasons for the moves before buckling down and committing them to memory.  Be sure that you can explain, to some degree, each move that is played.]
+;CR[qr]AB[qr]C[If black responds here, he is emphasizing territory.]
+;AW[lq][oq]AB[pp]LB[pp:2][lq:3][oq:1]C[The continuation looks something like this.  Black gains territory in the corner while white gets a base for survival.]
+;CR[oq]AE[pp][lq][qr]AB[oq]C[If black decides to play this move, he is emphasizing influence.]
+;AW[qq][rq][qs]AB[qp][or]LB[qp:2][qq:1][rq:3][or:4][qs:5]C[Here, white gets a live group in the corner while black gets a bunch of influence.]
+;AE[qo][qp][oq][pq][qq][rq][or][pr][qs]AB[pp]C[The second topic of discussion today is the 3-3 invasion of the star point.
+
+We often see the star point in games.  It is noted for being a "fast" opening which emphasizes influence.  The reason we don't call it a territorial move is because there are many josekis which allow the opponent to live.
+
+We'll look at one of them.]
+;CR[qq]AW[qq]TR[qp][pq]C[White starts by playing the 3-3 point.
+
+Most often, black has two possible responses which are very similar.
+
+With this joseki, black will gain a wall of influence.  The choice here determines which direction it will face.]
+;CR[qp]AB[qp]C[Since it is symmetrical, we'll look at this one.]
+;CR[pq]AW[pq]C[White tries to make more space for life.]
+;CR[oq]AB[oq]C[Black prevents white from making too much territory]
+;CR[or]AW[or]C[White continues to try to make space for life.]
+;CR[nq]AB[nq]C[Black wants to keep white low.]
+;CR[nr]AW[nr]C[Again, white plays this move to make life.]
+;CR[mq]AB[mq]C[Black wants to prevent white from getting much territory.  This move is okay since white is crawling on the second line.  Black would happily trade a huge wall for second line territory.]
+;CR[rp]AW[rp]C[White does not want to continue crawling so he plays this move to make the corner slightly larger.]
+;CR[ro]AB[ro]C[Black prevents white from destroying the effectiveness of this wall.]
+;CR[rq]AW[rq]C[White protects his stone.]
+;CR[qn]AB[qn]C[Black protects his weakness.]
+;AE[qn]TR[qo][op]C[You may be curious as to what weakness black has here.
+
+If he were to play elsewhere at this point, white can take advantage of the two cut points here.]
+;AW[qj][qk][ql][qm][po][qo]AB[rk][rl][rm][rn][op]LB[qj:11][qk:9][rk:10][ql:7][rl:8][qm:5][rm:6][rn:2][po:3][qo:1][op:4]C[White may play like this and force black to crawl.  The effectiveness of black's wall is destroyed.  Black gets nothing in this area.]
+;AE[qj][qk][rk][ql][rl][qm][rm][rn][po][qo][ro][op][pp][qp][rp][mq][nq][oq][pq][qq][rq][nr][or]C[That's it for this lesson!
+
+As always, let me know if you have questions.])
